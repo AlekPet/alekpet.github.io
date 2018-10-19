@@ -1,0 +1,13 @@
+---
+layout: default
+title: Посты
+---
+<ul class="posts_list">
+  {% for post in site.posts %}
+  <li>
+    <div>
+    <a href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title }}</a>
+    <div style="font:italic 0.8em monoscape;float:right;">{{ post.date | date_to_long_string }}</div>
+  </div>
+  </li>
+  {% endfor %}

@@ -1,0 +1,1373 @@
+{
+  "allRadios": {
+    "Лучшие станции": {
+      "name": "Лучшие станции",
+      "link": "http://101.ru/radio-top",
+      "radio": [{
+        "name": "Euro Hits",
+        "link": "/radio/channel/82",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/82.png",
+        "json": ["http://ic7.101.ru:8000/c16_13", "http://ic3.101.ru:8000/c16_13", "http://ic6.101.ru:8000/c16_13", "http://ic2.101.ru:80/c16_13"]
+      }, {
+        "name": "Chillоut",
+        "link": "/radio/channel/24",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/24.png",
+        "json": ["http://ic6.101.ru:8000/c15_3", "http://ic7.101.ru:8000/c15_3", "http://ic3.101.ru:8000/c15_3", "http://ic2.101.ru:80/c15_3"]
+      }, {
+        "name": "Deep House",
+        "link": "/radio/channel/173",
+        "image": "http://cdn9.101.ru/vardata/modules/channel/dynamics/pro/0/173.png",
+        "json": ["http://ic6.101.ru:8000/c18_2", "http://ic7.101.ru:8000/c18_2", "http://ic3.101.ru:8000/c18_2", "http://ic2.101.ru:80/c18_2"]
+      }, {
+        "name": "Дискотека 80-х",
+        "link": "/radio/channel/1",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/1.png",
+        "json": ["http://ic7.101.ru:8000/a1", "http://ic3.101.ru:8000/a1", "http://ic6.101.ru:8000/a1", "http://ic2.101.ru:80/a1"]
+      }, {
+        "name": "Office Lounge",
+        "link": "/radio/channel/30",
+        "image": "http://cdn4.101.ru/vardata/modules/channel/dynamics/pro/0/30.png",
+        "json": ["http://ic7.101.ru:8000/a30", "http://ic3.101.ru:8000/a30", "http://ic6.101.ru:8000/a30", "http://ic2.101.ru:80/a30"]
+      }, {
+        "name": "Russian Dance",
+        "link": "/radio/channel/17",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/17.png",
+        "json": ["http://ic6.101.ru:8000/c4_6", "http://ic7.101.ru:8000/c4_6", "http://ic3.101.ru:8000/c4_6", "http://ic2.101.ru:80/c4_6"]
+      }, {
+        "name": "Музыка Авторадио",
+        "link": "/radio/channel/2",
+        "image": "http://cdn5.101.ru/vardata/modules/channel/dynamics/pro/0/2.png",
+        "json": ["http://ic7.101.ru:8000/a2", "http://ic3.101.ru:8000/a2", "http://ic6.101.ru:8000/a2", "http://ic2.101.ru:80/a2"]
+      }, {
+        "name": "Дискотека 90-х",
+        "link": "/radio/channel/74",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/74.png",
+        "json": ["http://ic6.101.ru:8000/a74", "http://ic7.101.ru:8000/a74", "http://ic3.101.ru:8000/a74", "http://ic2.101.ru:80/a74"]
+      }, {
+        "name": "Русский Рок",
+        "link": "/radio/channel/42",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/42.png",
+        "json": ["http://ic6.101.ru:8000/c1_2", "http://ic7.101.ru:8000/c1_2", "http://ic3.101.ru:8000/c1_2", "http://ic2.101.ru:80/c1_2"]
+      }, {
+        "name": "Relax Gold",
+        "link": "/radio/channel/266",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/image/cf6916c60a4faa368918f27daf06176e.png",
+        "json": ["http://ic7.101.ru:8000/c19_4", "http://ic3.101.ru:8000/c19_4", "http://ic6.101.ru:8000/c19_4", "http://ic2.101.ru:80/c19_4"]
+      }, {
+        "name": "Россия Топ 50",
+        "link": "/radio/channel/34",
+        "image": "http://cdn5.101.ru/vardata/modules/channel/dynamics/pro/0/34.png",
+        "json": ["http://ic7.101.ru:8000/a34", "http://ic3.101.ru:8000/a34", "http://ic6.101.ru:8000/a34", "http://ic2.101.ru:80/a34"]
+      }, {
+        "name": "Trance",
+        "link": "/radio/channel/19",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/19.png",
+        "json": ["http://ic6.101.ru:8000/c13_3", "http://ic7.101.ru:8000/c13_3", "http://ic3.101.ru:8000/c13_3", "http://ic2.101.ru:80/c13_3"]
+      }, {
+        "name": "Relax Life",
+        "link": "/radio/channel/267",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/image/a21adfae742c1b3e113d72857889f9c0.png",
+        "json": ["http://ic7.101.ru:8000/c19_5", "http://ic3.101.ru:8000/c19_5", "http://ic6.101.ru:8000/c19_5", "http://ic2.101.ru:80/c19_5"]
+      }, {
+        "name": "Rock Hits",
+        "link": "/radio/channel/160",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/160.png",
+        "json": ["http://ic7.101.ru:8000/a160", "http://ic3.101.ru:8000/a160", "http://ic6.101.ru:8000/a160", "http://ic2.101.ru:80/a160"]
+      }, {
+        "name": "Шансон",
+        "link": "/radio/channel/50",
+        "image": "http://cdn5.101.ru/vardata/modules/channel/dynamics/pro/0/50.png",
+        "json": ["http://ic7.101.ru:8000/a50", "http://ic3.101.ru:8000/a50", "http://ic6.101.ru:8000/a50", "http://ic2.101.ru:80/a50"]
+      }, {
+        "name": "New Age",
+        "link": "/radio/channel/120",
+        "image": "http://cdn5.101.ru/vardata/modules/channel/dynamics/pro/0/120.png",
+        "json": ["http://ic7.101.ru:8000/a120", "http://ic3.101.ru:8000/a120", "http://ic6.101.ru:8000/a120", "http://ic2.101.ru:80/a120"]
+      }, {
+        "name": "Smooth Jazz",
+        "link": "/radio/channel/31",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/31.png",
+        "json": ["http://ic7.101.ru:8000/c2_3", "http://ic3.101.ru:8000/c2_3", "http://ic6.101.ru:8000/c2_3", "http://ic2.101.ru:80/c2_3"]
+      }, {
+        "name": "Club Dance",
+        "link": "/radio/channel/5",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/5.png",
+        "json": ["http://ic6.101.ru:8000/c4_2", "http://ic7.101.ru:8000/c4_2", "http://ic3.101.ru:8000/c4_2", "http://ic2.101.ru:80/c4_2"]
+      }, {
+        "name": "ВИА",
+        "link": "/radio/channel/36",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/36.png",
+        "json": ["http://ic7.101.ru:8000/c3_1", "http://ic3.101.ru:8000/c3_1", "http://ic6.101.ru:8000/c3_1", "http://ic2.101.ru:80/c3_1"]
+      }, {
+        "name": "Alternative",
+        "link": "/radio/channel/176",
+        "image": "http://cdn4.101.ru/vardata/modules/channel/dynamics/pro/0/176.png",
+        "json": ["http://ic7.101.ru:8000/a176", "http://ic3.101.ru:8000/a176", "http://ic6.101.ru:8000/a176", "http://ic2.101.ru:80/a176"]
+      }, {
+        "name": "Instrumental",
+        "link": "/radio/channel/28",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/28.png",
+        "json": ["http://ic7.101.ru:8000/a28", "http://ic3.101.ru:8000/a28", "http://ic6.101.ru:8000/a28", "http://ic2.101.ru:80/a28"]
+      }, {
+        "name": "СССР 50-70",
+        "link": "/radio/channel/47",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/47.png",
+        "json": ["http://ic6.101.ru:8000/c12_1", "http://ic7.101.ru:8000/c12_1", "http://ic3.101.ru:8000/c12_1", "http://ic2.101.ru:80/c12_1"]
+      }, {
+        "name": "Дискотека СССР",
+        "link": "/radio/channel/144",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/144.png",
+        "json": ["http://ic6.101.ru:8000/a144", "http://ic7.101.ru:8000/a144", "http://ic3.101.ru:8000/a144", "http://ic2.101.ru:80/a144"]
+      }, {
+        "name": "Первое Музыкальное",
+        "link": "/radio/channel/204",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/204.png",
+        "json": ["http://ic7.101.ru:8000/c18_15", "http://ic3.101.ru:8000/c18_15", "http://ic6.101.ru:8000/c18_15", "http://ic2.101.ru:80/c18_15"]
+      }, {
+        "name": "Chillstep",
+        "link": "/radio/channel/260",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/260.png",
+        "json": ["http://ic7.101.ru:8000/a260", "http://ic3.101.ru:8000/a260", "http://ic6.101.ru:8000/a260", "http://ic2.101.ru:80/a260"]
+      }, {
+        "name": "Love Songs",
+        "link": "/radio/channel/29",
+        "image": "http://cdn8.101.ru/vardata/modules/channel/dynamics/pro/0/29.png",
+        "json": ["http://ic7.101.ru:8000/c9_1", "http://ic3.101.ru:8000/c9_1", "http://ic6.101.ru:8000/c9_1", "http://ic2.101.ru:80/c9_1"]
+      }, {
+        "name": "House",
+        "link": "/radio/channel/10",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/10.png",
+        "json": ["http://ic7.101.ru:8000/c6_5", "http://ic3.101.ru:8000/c6_5", "http://ic6.101.ru:8000/c6_5", "http://ic2.101.ru:80/c6_5"]
+      }, {
+        "name": "Blues",
+        "link": "/radio/channel/76",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/76.png",
+        "json": ["http://ic6.101.ru:8000/a76", "http://ic7.101.ru:8000/a76", "http://ic3.101.ru:8000/a76", "http://ic2.101.ru:80/a76"]
+      }, {
+        "name": "90's Gold",
+        "link": "/radio/channel/75",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/75.png",
+        "json": ["http://ic7.101.ru:8000/c6_2", "http://ic3.101.ru:8000/c6_2", "http://ic6.101.ru:8000/c6_2", "http://ic2.101.ru:80/c6_2"]
+      }, {
+        "name": "Sex",
+        "link": "/radio/channel/27",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/27.png",
+        "json": ["http://ic7.101.ru:8000/a27", "http://ic3.101.ru:8000/a27", "http://ic6.101.ru:8000/a27", "http://ic2.101.ru:80/a27"]
+      }, {
+        "name": "Прикосновение",
+        "link": "/radio/channel/196",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/196.png",
+        "json": ["http://ic7.101.ru:8000/c7_29", "http://ic3.101.ru:8000/c7_29", "http://ic6.101.ru:8000/c7_29", "http://ic2.101.ru:80/c7_29"]
+      }, {
+        "name": "Soulful House",
+        "link": "/radio/channel/184",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/184.png",
+        "json": ["http://ic7.101.ru:8000/c13_29", "http://ic3.101.ru:8000/c13_29", "http://ic6.101.ru:8000/c13_29", "http://ic2.101.ru:80/c13_29"]
+      }, {
+        "name": "Rock",
+        "link": "/radio/channel/69",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/69.png",
+        "json": ["http://ic7.101.ru:8000/c1_4", "http://ic3.101.ru:8000/c1_4", "http://ic6.101.ru:8000/c1_4", "http://ic2.101.ru:80/c1_4"]
+      }, {
+        "name": "Relax Nature",
+        "link": "/radio/channel/263",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/image/02ea6b9b44df4dc8bdc035e3adca9728.png",
+        "json": ["http://ic7.101.ru:8000/c19_1", "http://ic3.101.ru:8000/c19_1", "http://ic6.101.ru:8000/c19_1", "http://ic2.101.ru:80/c19_1"]
+      }, {
+        "name": "Enigma",
+        "link": "/radio/channel/175",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/175.png",
+        "json": ["http://ic7.101.ru:8000/a175", "http://ic3.101.ru:8000/a175", "http://ic6.101.ru:8000/a175", "http://ic2.101.ru:80/a175"]
+      }, {
+        "name": "Relax Jazz",
+        "link": "/radio/channel/264",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/image/fcb4d8bfcb6daeea9d8c813f55a75382.png",
+        "json": ["http://ic7.101.ru:8000/c19_2", "http://ic3.101.ru:8000/c19_2", "http://ic6.101.ru:8000/c19_2", "http://ic2.101.ru:80/c19_2"]
+      }, {
+        "name": "Лето Non-Stop",
+        "link": "/radio/channel/150",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/150.png",
+        "json": ["http://ic7.101.ru:8000/c13_16", "http://ic3.101.ru:8000/c13_16", "http://ic6.101.ru:8000/c13_16", "http://ic2.101.ru:80/c13_16"]
+      }, {
+        "name": "Progressive",
+        "link": "/radio/channel/13",
+        "image": "http://cdn4.101.ru/vardata/modules/channel/dynamics/pro/0/13.png",
+        "json": ["http://ic7.101.ru:8000/c8_4", "http://ic3.101.ru:8000/c8_4", "http://ic6.101.ru:8000/c8_4", "http://ic2.101.ru:80/c8_4"]
+      }, {
+        "name": "Drum & Bass",
+        "link": "/radio/channel/6",
+        "image": "http://cdn4.101.ru/vardata/modules/channel/dynamics/pro/0/6.png",
+        "json": ["http://ic7.101.ru:8000/a6", "http://ic3.101.ru:8000/a6", "http://ic6.101.ru:8000/a6", "http://ic2.101.ru:80/a6"]
+      }, {
+        "name": "Попса 101",
+        "link": "/radio/channel/155",
+        "image": "http://cdn4.101.ru/vardata/modules/channel/dynamics/pro/0/155.png",
+        "json": ["http://ic7.101.ru:8000/a155", "http://ic3.101.ru:8000/a155", "http://ic6.101.ru:8000/a155", "http://ic2.101.ru:80/a155"]
+      }, {
+        "name": "Hot Traxx",
+        "link": "/radio/channel/9",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/9.png",
+        "json": ["http://ic7.101.ru:8000/c4_4", "http://ic3.101.ru:8000/c4_4", "http://ic6.101.ru:8000/c4_4", "http://ic2.101.ru:80/c4_4"]
+      }, {
+        "name": "Россия 90-х",
+        "link": "/radio/channel/33",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/33.png",
+        "json": ["http://ic7.101.ru:8000/a33", "http://ic3.101.ru:8000/a33", "http://ic6.101.ru:8000/a33", "http://ic2.101.ru:80/a33"]
+      }, {
+        "name": "Jazz",
+        "link": "/radio/channel/85",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/85.png",
+        "json": ["http://ic7.101.ru:8000/c10_5", "http://ic3.101.ru:8000/c10_5", "http://ic6.101.ru:8000/c10_5", "http://ic2.101.ru:80/c10_5"]
+      }, {
+        "name": "Классика Жанра",
+        "link": "/radio/channel/21",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/21.png",
+        "json": ["http://ic7.101.ru:8000/c4_1", "http://ic3.101.ru:8000/c4_1", "http://ic6.101.ru:8000/c4_1", "http://ic2.101.ru:80/c4_1"]
+      }, {
+        "name": "Indie",
+        "link": "/radio/channel/152",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/152.png",
+        "json": ["http://ic7.101.ru:8000/a152", "http://ic3.101.ru:8000/a152", "http://ic6.101.ru:8000/a152", "http://ic2.101.ru:80/a152"]
+      }, {
+        "name": "Ambient",
+        "link": "/radio/channel/23",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/23.png",
+        "json": ["http://ic7.101.ru:8000/a23", "http://ic3.101.ru:8000/a23", "http://ic6.101.ru:8000/a23", "http://ic2.101.ru:80/a23"]
+      }, {
+        "name": "Gangsta & Hip-Hop",
+        "link": "/radio/channel/8",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/8.png",
+        "json": ["http://ic7.101.ru:8000/a8", "http://ic3.101.ru:8000/a8", "http://ic6.101.ru:8000/a8", "http://ic2.101.ru:80/a8"]
+      }, {
+        "name": "Mainstream",
+        "link": "/radio/channel/87",
+        "image": "http://cdn7.101.ru/vardata/modules/channel/dynamics/pro/0/87.png",
+        "json": ["http://ic7.101.ru:8000/c7_2", "http://ic3.101.ru:8000/c7_2", "http://ic6.101.ru:8000/c7_2", "http://ic2.101.ru:80/c7_2"]
+      }, {
+        "name": "Анекдоты",
+        "link": "/radio/channel/20",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/20.png",
+        "json": ["http://ic7.101.ru:8000/c3_5", "http://ic3.101.ru:8000/c3_5", "http://ic6.101.ru:8000/c3_5", "http://ic2.101.ru:80/c3_5"]
+      }, {
+        "name": "Русский Рэп",
+        "link": "/radio/channel/43",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/43.png",
+        "json": ["http://ic7.101.ru:8000/c1_3", "http://ic3.101.ru:8000/c1_3", "http://ic6.101.ru:8000/c1_3", "http://ic2.101.ru:80/c1_3"]
+      }, {
+        "name": "Саундтреки",
+        "link": "/radio/channel/25",
+        "image": "http://cdn4.101.ru/vardata/modules/channel/dynamics/pro/0/25.png",
+        "json": ["http://ic6.101.ru:8000/c2_2", "http://ic7.101.ru:8000/c2_2", "http://ic3.101.ru:8000/c2_2", "http://ic2.101.ru:80/c2_2"]
+      }],
+      "clear": [{
+        "name": "Fomenko Fake Radio",
+        "link": "/radio/channel/933259",
+        "image": "http://cdn7.101.ru/vardata/modules/channel/dynamics/personal/93/933259.png",
+        "json": "Канал не найден"
+      }]
+    },
+    "Эфирное Радио": {
+      "name": "Эфирное Радио",
+      "link": "http://101.ru/radio-group/group/1",
+      "radio": [{
+        "name": "Авторадио",
+        "link": "/radio/channel/100",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/image/91634286cb6dabbef889fb73108a227a.png",
+        "json": ["http://ic7.101.ru:8000/a100", "http://ic3.101.ru:8000/a100", "http://ic6.101.ru:8000/a100", "http://ic2.101.ru:80/a100"]
+      }, {
+        "name": "Like FM",
+        "link": "/radio/channel/219",
+        "image": "http://cdn6.101.ru/vardata/modules/channel/image/a42a2f50b09a0ad929b7b896a2f3e4fc.png",
+        "json": ["http://ic6.101.ru:8000/a219", "http://ic7.101.ru:8000/a219", "http://ic3.101.ru:8000/a219", "http://ic2.101.ru:80/a219"]
+      }, {
+        "name": "Радио ENERGY",
+        "link": "/radio/channel/99",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/image/01798f71d8d37ab721a7ce6b4d283bfb.png",
+        "json": ["http://ic6.101.ru:8000/a99", "http://ic7.101.ru:8000/a99", "http://ic3.101.ru:8000/a99", "http://ic2.101.ru:80/a99"]
+      }, {
+        "name": "Relax FM",
+        "link": "/radio/channel/200",
+        "image": "http://cdn9.101.ru/vardata/modules/channel/image/74c94f52d9cebc398887abac95fabb0a.png",
+        "json": ["http://ic7.101.ru:8000/a200", "http://ic3.101.ru:8000/a200", "http://ic6.101.ru:8000/a200", "http://ic2.101.ru:80/a200"]
+      }, {
+        "name": "Радио Romantika",
+        "link": "/radio/channel/101",
+        "image": "http://cdn4.101.ru/vardata/modules/channel/image/d87e434e469b9eadfc5178ddb1e03a82.png",
+        "json": ["http://ic6.101.ru:8000/a101", "http://ic7.101.ru:8000/a101", "http://ic3.101.ru:8000/a101", "http://ic2.101.ru:80/a101"]
+      }, {
+        "name": "Детское Радио",
+        "link": "/radio/channel/199",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/image/603556724e28b5a4626f61c0e5f8616a.png",
+        "json": ["http://ic7.101.ru:8000/a199", "http://ic3.101.ru:8000/a199", "http://ic6.101.ru:8000/a199", "http://ic2.101.ru:80/a199"]
+      }, {
+        "name": "Юмор FM",
+        "link": "/radio/channel/102",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/image/7c15831fdc28bc4abd34016221781ebe.png",
+        "json": ["http://ic7.101.ru:8000/a102", "http://ic3.101.ru:8000/a102", "http://ic6.101.ru:8000/a102", "http://ic2.101.ru:80/a102"]
+      }, {
+        "name": "Comedy Radio",
+        "link": "/radio/channel/202",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/image/5ed644a0f6615ee5c1569d415bc528ab.png",
+        "json": ["http://ic7.101.ru:8000/a202", "http://ic3.101.ru:8000/a202", "http://ic6.101.ru:8000/a202", "http://ic2.101.ru:80/a202"]
+      }, {
+        "name": "Радио Зенит",
+        "link": "/radio/channel/269",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/image/628f809530ef4154b4feeb4dcbefc50e.png",
+        "json": ["http://ic7.101.ru:8000/v15_1", "http://ic3.101.ru:8000/v15_1", "http://ic6.101.ru:8000/v15_1", "http://ic2.101.ru:80/v15_1"]
+      }, {
+        "name": "Megapolis",
+        "link": "/radio/channel/180",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/image/d093d002e089d0029e5a7649a4a9ef34.png",
+        "json": ["http://ic7.101.ru:8000/e1_1", "http://ic3.101.ru:8000/e1_1", "http://ic6.101.ru:8000/e1_1", "http://ic2.101.ru:80/e1_1"]
+      }, {
+        "name": "Радиола",
+        "link": "/radio/channel/209",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/image/3310cc4a6eb3aa214e2b6a4e99ebb6c6.png",
+        "json": ["http://ic7.101.ru:8000/e12_1", "http://ic3.101.ru:8000/e12_1", "http://ic6.101.ru:8000/e12_1", "http://ic2.101.ru:80/e12_1"]
+      }, {
+        "name": "Радио ВЕРА",
+        "link": "/radio/channel/207",
+        "image": "http://cdn8.101.ru/vardata/modules/channel/image/6767a2caf99eb977b976ff566c4c7b64.png",
+        "json": ["http://ic7.101.ru:8000/e10_1", "http://ic3.101.ru:8000/e10_1", "http://ic6.101.ru:8000/e10_1", "http://ic2.101.ru:80/e10_1"]
+      }, {
+        "name": "Комсомольская Правда",
+        "link": "/radio/channel/194",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/image/3c50bbeaed58732b5861e682b1b6e77d.png",
+        "json": ["http://ic7.101.ru:8000/vkp_1", "http://ic3.101.ru:8000/vkp_1", "http://ic6.101.ru:8000/vkp_1", "http://ic2.101.ru:80/vkp_1"]
+      }],
+      "clear": []
+    },
+    "Коммерческое Радио": {
+      "name": "Коммерческое Радио",
+      "link": "http://101.ru/radio-group/group/20",
+      "radio": [{
+        "name": "Первое Музыкальное",
+        "link": "/radio/channel/204",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/204.png",
+        "json": ["http://ic7.101.ru:8000/c18_15", "http://ic3.101.ru:8000/c18_15", "http://ic6.101.ru:8000/c18_15", "http://ic2.101.ru:80/c18_15"]
+      }, {
+        "name": "Сокольники",
+        "link": "/radio/channel/203",
+        "image": "http://cdn4.101.ru/vardata/modules/channel/dynamics/pro/0/203.png",
+        "json": ["http://ic7.101.ru:8000/c18_14", "http://ic3.101.ru:8000/c18_14", "http://ic6.101.ru:8000/c18_14", "http://ic2.101.ru:80/c18_14"]
+      }, {
+        "name": "Crocus City Hall",
+        "link": "/radio/channel/213",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/213.png",
+        "json": ["http://ic7.101.ru:8000/c18_17", "http://ic3.101.ru:8000/c18_17", "http://ic6.101.ru:8000/c18_17", "http://ic2.101.ru:80/c18_17"]
+      }, {
+        "name": "Olimpik.ru",
+        "link": "/radio/channel/225",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/225.png",
+        "json": ["http://ic7.101.ru:8000/c17_28", "http://ic3.101.ru:8000/c17_28", "http://ic6.101.ru:8000/c17_28", "http://ic2.101.ru:80/c17_28"]
+      }, {
+        "name": "ТНТ Music Radio",
+        "link": "/radio/channel/274",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/image/ccf611bb55c683a8e53ac088f9a70edb.png",
+        "json": ["http://ic7.101.ru:8000/e16_1", "http://ic3.101.ru:8000/e16_1", "http://ic6.101.ru:8000/e16_1", "http://ic2.101.ru:80/e16_1"]
+      }],
+      "clear": []
+    },
+    "Танцевальное Радио": {
+      "name": "Танцевальное Радио",
+      "link": "http://101.ru/radio-group/group/2",
+      "radio": [{
+        "name": "Club Dance",
+        "link": "/radio/channel/5",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/5.png",
+        "json": ["http://ic7.101.ru:8000/c4_2", "http://ic3.101.ru:8000/c4_2", "http://ic6.101.ru:8000/c4_2", "http://ic2.101.ru:80/c4_2"]
+      }, {
+        "name": "Дискотека 80-х",
+        "link": "/radio/channel/1",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/1.png",
+        "json": ["http://ic7.101.ru:8000/a1", "http://ic3.101.ru:8000/a1", "http://ic6.101.ru:8000/a1", "http://ic2.101.ru:80/a1"]
+      }, {
+        "name": "Radio First",
+        "link": "/radio/channel/242",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/image/a9bf398cc4b0ea5bbc411b78a0303d4f.png",
+        "json": ["http://ic7.101.ru:8000/c99_1", "http://ic3.101.ru:8000/c99_1", "http://ic6.101.ru:8000/c99_1", "http://ic2.101.ru:80/c99_1"]
+      }, {
+        "name": "Лето Non-Stop",
+        "link": "/radio/channel/150",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/150.png",
+        "json": ["http://ic7.101.ru:8000/c13_16", "http://ic3.101.ru:8000/c13_16", "http://ic6.101.ru:8000/c13_16", "http://ic2.101.ru:80/c13_16"]
+      }, {
+        "name": "Euro Hits",
+        "link": "/radio/channel/82",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/82.png",
+        "json": ["http://ic6.101.ru:8000/c16_13", "http://ic7.101.ru:8000/c16_13", "http://ic3.101.ru:8000/c16_13", "http://ic2.101.ru:80/c16_13"]
+      }, {
+        "name": "House",
+        "link": "/radio/channel/10",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/10.png",
+        "json": ["http://ic7.101.ru:8000/c6_5", "http://ic3.101.ru:8000/c6_5", "http://ic6.101.ru:8000/c6_5", "http://ic2.101.ru:80/c6_5"]
+      }, {
+        "name": "Big Room",
+        "link": "/radio/channel/220",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/220.png",
+        "json": ["http://ic7.101.ru:8000/c18_18", "http://ic3.101.ru:8000/c18_18", "http://ic6.101.ru:8000/c18_18", "http://ic2.101.ru:80/c18_18"]
+      }, {
+        "name": "Electro",
+        "link": "/radio/channel/7",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/7.png",
+        "json": ["http://ic7.101.ru:8000/c6_3", "http://ic3.101.ru:8000/c6_3", "http://ic6.101.ru:8000/c6_3", "http://ic2.101.ru:80/c6_3"]
+      }, {
+        "name": "Hot Traxx",
+        "link": "/radio/channel/9",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/9.png",
+        "json": ["http://ic7.101.ru:8000/c4_4", "http://ic3.101.ru:8000/c4_4", "http://ic6.101.ru:8000/c4_4", "http://ic2.101.ru:80/c4_4"]
+      }, {
+        "name": "La Costa Latina",
+        "link": "/radio/channel/259",
+        "image": "http://cdn5.101.ru/vardata/modules/channel/dynamics/pro/0/259.png",
+        "json": ["http://ic7.101.ru:8000/c7_39", "http://ic3.101.ru:8000/c7_39", "http://ic6.101.ru:8000/c7_39", "http://ic2.101.ru:80/c7_39"]
+      }, {
+        "name": "Progressive",
+        "link": "/radio/channel/13",
+        "image": "http://cdn4.101.ru/vardata/modules/channel/dynamics/pro/0/13.png",
+        "json": ["http://ic7.101.ru:8000/c8_4", "http://ic3.101.ru:8000/c8_4", "http://ic6.101.ru:8000/c8_4", "http://ic2.101.ru:80/c8_4"]
+      }, {
+        "name": "Дискотека 90-х",
+        "link": "/radio/channel/74",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/74.png",
+        "json": ["http://ic6.101.ru:8000/a74", "http://ic7.101.ru:8000/a74", "http://ic3.101.ru:8000/a74", "http://ic2.101.ru:80/a74"]
+      }, {
+        "name": "Россия 90-х",
+        "link": "/radio/channel/33",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/33.png",
+        "json": ["http://ic7.101.ru:8000/a33", "http://ic3.101.ru:8000/a33", "http://ic6.101.ru:8000/a33", "http://ic2.101.ru:80/a33"]
+      }, {
+        "name": "Russian Dance",
+        "link": "/radio/channel/17",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/17.png",
+        "json": ["http://ic7.101.ru:8000/c4_6", "http://ic3.101.ru:8000/c4_6", "http://ic6.101.ru:8000/c4_6", "http://ic2.101.ru:80/c4_6"]
+      }, {
+        "name": "Дискотека СССР",
+        "link": "/radio/channel/144",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/144.png",
+        "json": ["http://ic7.101.ru:8000/a144", "http://ic3.101.ru:8000/a144", "http://ic6.101.ru:8000/a144", "http://ic2.101.ru:80/a144"]
+      }, {
+        "name": "Disco",
+        "link": "/radio/channel/80",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/80.png",
+        "json": ["http://ic7.101.ru:8000/a80", "http://ic3.101.ru:8000/a80", "http://ic6.101.ru:8000/a80", "http://ic2.101.ru:80/a80"]
+      }, {
+        "name": "Italo Disco",
+        "link": "/radio/channel/161",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/161.png",
+        "json": ["http://ic7.101.ru:8000/a161", "http://ic3.101.ru:8000/a161", "http://ic6.101.ru:8000/a161", "http://ic2.101.ru:80/a161"]
+      }],
+      "clear": []
+    },
+    "Электроника": {
+      "name": "Электроника",
+      "link": "http://101.ru/radio-group/group/4",
+      "radio": [{
+        "name": "Trance",
+        "link": "/radio/channel/19",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/19.png",
+        "json": ["http://ic7.101.ru:8000/c13_3", "http://ic3.101.ru:8000/c13_3", "http://ic6.101.ru:8000/c13_3", "http://ic2.101.ru:80/c13_3"]
+      }, {
+        "name": "Electronic",
+        "link": "/radio/channel/132",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/132.png",
+        "json": ["http://ic7.101.ru:8000/c15_20", "http://ic3.101.ru:8000/c15_20", "http://ic6.101.ru:8000/c15_20", "http://ic2.101.ru:80/c15_20"]
+      }, {
+        "name": "Tech House",
+        "link": "/radio/channel/170",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/170.png",
+        "json": ["http://ic7.101.ru:8000/c18_5", "http://ic3.101.ru:8000/c18_5", "http://ic6.101.ru:8000/c18_5", "http://ic2.101.ru:80/c18_5"]
+      }, {
+        "name": "Breakbeat",
+        "link": "/radio/channel/4",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/4.png",
+        "json": ["http://ic7.101.ru:8000/c16_11", "http://ic3.101.ru:8000/c16_11", "http://ic6.101.ru:8000/c16_11", "http://ic2.101.ru:80/c16_11"]
+      }, {
+        "name": "DubStep",
+        "link": "/radio/channel/136",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/136.png",
+        "json": ["http://ic7.101.ru:8000/a136", "http://ic3.101.ru:8000/a136", "http://ic6.101.ru:8000/a136", "http://ic2.101.ru:80/a136"]
+      }, {
+        "name": "Liquid Funk",
+        "link": "/radio/channel/272",
+        "image": "http://cdn9.101.ru/vardata/modules/channel/dynamics/pro/0/272.png",
+        "json": ["http://ic7.101.ru:8000/c7_45", "http://ic3.101.ru:8000/c7_45", "http://ic6.101.ru:8000/c7_45", "http://ic2.101.ru:80/c7_45"]
+      }, {
+        "name": "Chillstep",
+        "link": "/radio/channel/260",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/260.png",
+        "json": ["http://ic7.101.ru:8000/a260", "http://ic3.101.ru:8000/a260", "http://ic6.101.ru:8000/a260", "http://ic2.101.ru:80/a260"]
+      }, {
+        "name": "Drum & Bass",
+        "link": "/radio/channel/6",
+        "image": "http://cdn4.101.ru/vardata/modules/channel/dynamics/pro/0/6.png",
+        "json": ["http://ic7.101.ru:8000/a6", "http://ic3.101.ru:8000/a6", "http://ic6.101.ru:8000/a6", "http://ic2.101.ru:80/a6"]
+      }, {
+        "name": "Cyber Space",
+        "link": "/radio/channel/79",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/79.png",
+        "json": ["http://ic7.101.ru:8000/c10_4", "http://ic3.101.ru:8000/c10_4", "http://ic6.101.ru:8000/c10_4", "http://ic2.101.ru:80/c10_4"]
+      }, {
+        "name": "Trap",
+        "link": "/radio/channel/193",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/193.png",
+        "json": ["http://ic7.101.ru:8000/c7_28", "http://ic3.101.ru:8000/c7_28", "http://ic6.101.ru:8000/c7_28", "http://ic2.101.ru:80/c7_28"]
+      }, {
+        "name": "Rave",
+        "link": "/radio/channel/151",
+        "image": "http://cdn4.101.ru/vardata/modules/channel/dynamics/pro/0/151.png",
+        "json": ["http://ic7.101.ru:8000/c7_20", "http://ic3.101.ru:8000/c7_20", "http://ic6.101.ru:8000/c7_20", "http://ic2.101.ru:80/c7_20"]
+      }, {
+        "name": "Techno",
+        "link": "/radio/channel/18",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/18.png",
+        "json": ["http://ic7.101.ru:8000/c17_3", "http://ic3.101.ru:8000/c17_3", "http://ic6.101.ru:8000/c17_3", "http://ic2.101.ru:80/c17_3"]
+      }],
+      "clear": []
+    },
+    "Широкий Формат": {
+      "name": "Широкий Формат",
+      "link": "http://101.ru/radio-group/group/9",
+      "radio": [{
+        "name": "Музыка Летних Фестивалей",
+        "link": "/radio/channel/285",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/285.png",
+        "json": ["http://ic6.101.ru:8000/a285", "http://ic7.101.ru:8000/a285", "http://ic3.101.ru:8000/a285", "http://ic2.101.ru:80/a285"]
+      }, {
+        "name": "На хайпе",
+        "link": "/radio/channel/286",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/286.png",
+        "json": ["http://ic7.101.ru:8000/a286", "http://ic3.101.ru:8000/a286", "http://ic6.101.ru:8000/a286", "http://ic2.101.ru:80/a286"]
+      }, {
+        "name": "Голос Дети",
+        "link": "/radio/channel/287",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/287.png",
+        "json": ["http://ic7.101.ru:8000/a287", "http://ic3.101.ru:8000/a287", "http://ic6.101.ru:8000/a287", "http://ic2.101.ru:80/a287"]
+      }, {
+        "name": "Музыка Авторадио",
+        "link": "/radio/channel/2",
+        "image": "http://cdn5.101.ru/vardata/modules/channel/dynamics/pro/0/2.png",
+        "json": ["http://ic7.101.ru:8000/a2", "http://ic3.101.ru:8000/a2", "http://ic6.101.ru:8000/a2", "http://ic2.101.ru:80/a2"]
+      }, {
+        "name": "90's Gold",
+        "link": "/radio/channel/75",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/75.png",
+        "json": ["http://ic7.101.ru:8000/c6_2", "http://ic3.101.ru:8000/c6_2", "http://ic6.101.ru:8000/c6_2", "http://ic2.101.ru:80/c6_2"]
+      }, {
+        "name": "Golden 70's",
+        "link": "/radio/channel/192",
+        "image": "http://cdn8.101.ru/vardata/modules/channel/dynamics/pro/0/192.png",
+        "json": ["http://ic7.101.ru:8000/a192", "http://ic3.101.ru:8000/a192", "http://ic6.101.ru:8000/a192", "http://ic2.101.ru:80/a192"]
+      }, {
+        "name": "Mainstream",
+        "link": "/radio/channel/87",
+        "image": "http://cdn7.101.ru/vardata/modules/channel/dynamics/pro/0/87.png",
+        "json": ["http://ic7.101.ru:8000/c7_2", "http://ic3.101.ru:8000/c7_2", "http://ic6.101.ru:8000/c7_2", "http://ic2.101.ru:80/c7_2"]
+      }, {
+        "name": "Голос",
+        "link": "/radio/channel/198",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/198.png",
+        "json": ["http://ic7.101.ru:8000/c18_12", "http://ic3.101.ru:8000/c18_12", "http://ic6.101.ru:8000/c18_12", "http://ic2.101.ru:80/c18_12"]
+      }, {
+        "name": "Live Hits",
+        "link": "/radio/channel/86",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/86.png",
+        "json": ["http://ic7.101.ru:8000/c15_5", "http://ic3.101.ru:8000/c15_5", "http://ic6.101.ru:8000/c15_5", "http://ic2.101.ru:80/c15_5"]
+      }, {
+        "name": "Мюзиклы",
+        "link": "/radio/channel/92",
+        "image": "http://cdn7.101.ru/vardata/modules/channel/dynamics/pro/0/92.png",
+        "json": ["http://ic7.101.ru:8000/c12_5", "http://ic3.101.ru:8000/c12_5", "http://ic6.101.ru:8000/c12_5", "http://ic2.101.ru:80/c12_5"]
+      }, {
+        "name": "Прикосновение",
+        "link": "/radio/channel/196",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/196.png",
+        "json": ["http://ic7.101.ru:8000/c7_29", "http://ic3.101.ru:8000/c7_29", "http://ic6.101.ru:8000/c7_29", "http://ic2.101.ru:80/c7_29"]
+      }, {
+        "name": "Cats & Dogs",
+        "link": "/radio/channel/281",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/281.png",
+        "json": ["http://ic7.101.ru:8000/c17_4", "http://ic3.101.ru:8000/c17_4", "http://ic6.101.ru:8000/c17_4", "http://ic2.101.ru:80/c17_4"]
+      }],
+      "clear": []
+    },
+    "Фоновая Музыка": {
+      "name": "Фоновая Музыка",
+      "link": "http://101.ru/radio-group/group/5",
+      "radio": [{
+        "name": "Deep House",
+        "link": "/radio/channel/173",
+        "image": "http://cdn9.101.ru/vardata/modules/channel/dynamics/pro/0/173.png",
+        "json": ["http://ic7.101.ru:8000/c18_2", "http://ic3.101.ru:8000/c18_2", "http://ic6.101.ru:8000/c18_2", "http://ic2.101.ru:80/c18_2"]
+      }, {
+        "name": "Sex",
+        "link": "/radio/channel/27",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/27.png",
+        "json": ["http://ic6.101.ru:8000/a27", "http://ic7.101.ru:8000/a27", "http://ic3.101.ru:8000/a27", "http://ic2.101.ru:80/a27"]
+      }, {
+        "name": "Chillоut",
+        "link": "/radio/channel/24",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/24.png",
+        "json": ["http://ic7.101.ru:8000/c15_3", "http://ic3.101.ru:8000/c15_3", "http://ic6.101.ru:8000/c15_3", "http://ic2.101.ru:80/c15_3"]
+      }, {
+        "name": "New Age",
+        "link": "/radio/channel/120",
+        "image": "http://cdn5.101.ru/vardata/modules/channel/dynamics/pro/0/120.png",
+        "json": ["http://ic7.101.ru:8000/a120", "http://ic3.101.ru:8000/a120", "http://ic6.101.ru:8000/a120", "http://ic2.101.ru:80/a120"]
+      }, {
+        "name": "Ambient",
+        "link": "/radio/channel/23",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/23.png",
+        "json": ["http://ic7.101.ru:8000/a23", "http://ic3.101.ru:8000/a23", "http://ic6.101.ru:8000/a23", "http://ic2.101.ru:80/a23"]
+      }, {
+        "name": "Тантра",
+        "link": "/radio/channel/241",
+        "image": "http://cdn4.101.ru/vardata/modules/channel/dynamics/pro/0/241.png",
+        "json": ["http://ic7.101.ru:8000/c7_32", "http://ic3.101.ru:8000/c7_32", "http://ic6.101.ru:8000/c7_32", "http://ic2.101.ru:80/c7_32"]
+      }, {
+        "name": "Soulful House",
+        "link": "/radio/channel/184",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/184.png",
+        "json": ["http://ic7.101.ru:8000/c13_29", "http://ic3.101.ru:8000/c13_29", "http://ic6.101.ru:8000/c13_29", "http://ic2.101.ru:80/c13_29"]
+      }, {
+        "name": "Акустика",
+        "link": "/radio/channel/164",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/164.png",
+        "json": ["http://ic7.101.ru:8000/c16_34", "http://ic3.101.ru:8000/c16_34", "http://ic6.101.ru:8000/c16_34", "http://ic2.101.ru:80/c16_34"]
+      }, {
+        "name": "Звуки Природы",
+        "link": "/radio/channel/32",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/32.png",
+        "json": ["http://ic7.101.ru:8000/c17_2", "http://ic3.101.ru:8000/c17_2", "http://ic6.101.ru:8000/c17_2", "http://ic2.101.ru:80/c17_2"]
+      }, {
+        "name": "Easy Listening",
+        "link": "/radio/channel/26",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/26.png",
+        "json": ["http://ic7.101.ru:8000/c11_2", "http://ic3.101.ru:8000/c11_2", "http://ic6.101.ru:8000/c11_2", "http://ic2.101.ru:80/c11_2"]
+      }, {
+        "name": "Office Lounge",
+        "link": "/radio/channel/30",
+        "image": "http://cdn4.101.ru/vardata/modules/channel/dynamics/pro/0/30.png",
+        "json": ["http://ic7.101.ru:8000/a30", "http://ic3.101.ru:8000/a30", "http://ic6.101.ru:8000/a30", "http://ic2.101.ru:80/a30"]
+      }, {
+        "name": "Instrumental",
+        "link": "/radio/channel/28",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/28.png",
+        "json": ["http://ic7.101.ru:8000/a28", "http://ic3.101.ru:8000/a28", "http://ic6.101.ru:8000/a28", "http://ic2.101.ru:80/a28"]
+      }, {
+        "name": "Саундтреки",
+        "link": "/radio/channel/25",
+        "image": "http://cdn4.101.ru/vardata/modules/channel/dynamics/pro/0/25.png",
+        "json": ["http://ic6.101.ru:8000/c2_2", "http://ic7.101.ru:8000/c2_2", "http://ic3.101.ru:8000/c2_2", "http://ic2.101.ru:80/c2_2"]
+      }],
+      "clear": []
+    },
+    "Поп Музыка": {
+      "name": "Поп Музыка",
+      "link": "http://101.ru/radio-group/group/15",
+      "radio": [{
+        "name": "Radio 101 Classics",
+        "link": "/radio/channel/283",
+        "image": "http://cdn4.101.ru/vardata/modules/channel/dynamics/pro/0/283.png",
+        "json": ["http://ic7.101.ru:8000/a283", "http://ic3.101.ru:8000/a283", "http://ic6.101.ru:8000/a283", "http://ic2.101.ru:80/a283"]
+      }, {
+        "name": "101 Fresh",
+        "link": "/radio/channel/148",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/148.png",
+        "json": ["http://ic7.101.ru:8000/a148", "http://ic3.101.ru:8000/a148", "http://ic6.101.ru:8000/a148", "http://ic2.101.ru:80/a148"]
+      }, {
+        "name": "Россия Топ 50",
+        "link": "/radio/channel/34",
+        "image": "http://cdn5.101.ru/vardata/modules/channel/dynamics/pro/0/34.png",
+        "json": ["http://ic6.101.ru:8000/a34", "http://ic7.101.ru:8000/a34", "http://ic3.101.ru:8000/a34", "http://ic2.101.ru:80/a34"]
+      }, {
+        "name": "Попса 101",
+        "link": "/radio/channel/155",
+        "image": "http://cdn4.101.ru/vardata/modules/channel/dynamics/pro/0/155.png",
+        "json": ["http://ic7.101.ru:8000/a155", "http://ic3.101.ru:8000/a155", "http://ic6.101.ru:8000/a155", "http://ic2.101.ru:80/a155"]
+      }, {
+        "name": "Love Songs",
+        "link": "/radio/channel/29",
+        "image": "http://cdn8.101.ru/vardata/modules/channel/dynamics/pro/0/29.png",
+        "json": ["http://ic7.101.ru:8000/c9_1", "http://ic3.101.ru:8000/c9_1", "http://ic6.101.ru:8000/c9_1", "http://ic2.101.ru:80/c9_1"]
+      }, {
+        "name": "Happy Hours",
+        "link": "/radio/channel/273",
+        "image": "http://cdn7.101.ru/vardata/modules/channel/dynamics/pro/0/273.png",
+        "json": ["http://ic7.101.ru:8000/c7_46", "http://ic3.101.ru:8000/c7_46", "http://ic6.101.ru:8000/c7_46", "http://ic2.101.ru:80/c7_46"]
+      }, {
+        "name": "Фабрика Звезд",
+        "link": "/radio/channel/48",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/48.png",
+        "json": ["http://ic7.101.ru:8000/c14_2", "http://ic3.101.ru:8000/c14_2", "http://ic6.101.ru:8000/c14_2", "http://ic2.101.ru:80/c14_2"]
+      }, {
+        "name": "90's Pop",
+        "link": "/radio/channel/130",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/130.png",
+        "json": ["http://ic7.101.ru:8000/c15_10", "http://ic3.101.ru:8000/c15_10", "http://ic6.101.ru:8000/c15_10", "http://ic2.101.ru:80/c15_10"]
+      }, {
+        "name": "Евровидение",
+        "link": "/radio/channel/147",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/147.png",
+        "json": ["http://ic7.101.ru:8000/a147", "http://ic3.101.ru:8000/a147", "http://ic6.101.ru:8000/a147", "http://ic2.101.ru:80/a147"]
+      }],
+      "clear": []
+    },
+    "Рок Музыка": {
+      "name": "Рок Музыка",
+      "link": "http://101.ru/radio-group/group/8",
+      "radio": [{
+        "name": "Музыка футбола",
+        "link": "/radio/channel/280",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/280.png",
+        "json": ["http://ic7.101.ru:8000/a280", "http://ic3.101.ru:8000/a280", "http://ic6.101.ru:8000/a280", "http://ic2.101.ru:80/a280"]
+      }, {
+        "name": "Rock",
+        "link": "/radio/channel/69",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/69.png",
+        "json": ["http://ic7.101.ru:8000/c1_4", "http://ic3.101.ru:8000/c1_4", "http://ic6.101.ru:8000/c1_4", "http://ic2.101.ru:80/c1_4"]
+      }, {
+        "name": "Rock Hits",
+        "link": "/radio/channel/160",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/160.png",
+        "json": ["http://ic7.101.ru:8000/a160", "http://ic3.101.ru:8000/a160", "http://ic6.101.ru:8000/a160", "http://ic2.101.ru:80/a160"]
+      }, {
+        "name": "Metal",
+        "link": "/radio/channel/211",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/211.png",
+        "json": ["http://ic7.101.ru:8000/a211", "http://ic3.101.ru:8000/a211", "http://ic6.101.ru:8000/a211", "http://ic2.101.ru:80/a211"]
+      }, {
+        "name": "Thrash",
+        "link": "/radio/channel/73",
+        "image": "http://cdn7.101.ru/vardata/modules/channel/dynamics/pro/0/73.png",
+        "json": ["http://ic7.101.ru:8000/c8_3", "http://ic3.101.ru:8000/c8_3", "http://ic6.101.ru:8000/c8_3", "http://ic2.101.ru:80/c8_3"]
+      }, {
+        "name": "Alternative",
+        "link": "/radio/channel/176",
+        "image": "http://cdn4.101.ru/vardata/modules/channel/dynamics/pro/0/176.png",
+        "json": ["http://ic7.101.ru:8000/a176", "http://ic3.101.ru:8000/a176", "http://ic6.101.ru:8000/a176", "http://ic2.101.ru:80/a176"]
+      }, {
+        "name": "Русский Рок",
+        "link": "/radio/channel/42",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/42.png",
+        "json": ["http://ic7.101.ru:8000/c1_2", "http://ic3.101.ru:8000/c1_2", "http://ic6.101.ru:8000/c1_2", "http://ic2.101.ru:80/c1_2"]
+      }, {
+        "name": "Наш Метал",
+        "link": "/radio/channel/257",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/257.png",
+        "json": ["http://ic7.101.ru:8000/c7_37", "http://ic3.101.ru:8000/c7_37", "http://ic6.101.ru:8000/c7_37", "http://ic2.101.ru:80/c7_37"]
+      }, {
+        "name": "Instrumental Rock",
+        "link": "/radio/channel/183",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/183.png",
+        "json": ["http://ic7.101.ru:8000/c13_27", "http://ic3.101.ru:8000/c13_27", "http://ic6.101.ru:8000/c13_27", "http://ic2.101.ru:80/c13_27"]
+      }, {
+        "name": "Rock Guitar",
+        "link": "/radio/channel/70",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/70.png",
+        "json": ["http://ic7.101.ru:8000/c15_1", "http://ic3.101.ru:8000/c15_1", "http://ic6.101.ru:8000/c15_1", "http://ic2.101.ru:80/c15_1"]
+      }, {
+        "name": "Route 101",
+        "link": "/radio/channel/185",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/185.png",
+        "json": ["http://ic7.101.ru:8000/c13_28", "http://ic3.101.ru:8000/c13_28", "http://ic6.101.ru:8000/c13_28", "http://ic2.101.ru:80/c13_28"]
+      }, {
+        "name": "Rock Remakes",
+        "link": "/radio/channel/71",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/71.png",
+        "json": ["http://ic7.101.ru:8000/c7_9", "http://ic3.101.ru:8000/c7_9", "http://ic6.101.ru:8000/c7_9", "http://ic2.101.ru:80/c7_9"]
+      }, {
+        "name": "Rock'n'Roll",
+        "link": "/radio/channel/89",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/89.png",
+        "json": ["http://ic7.101.ru:8000/c5_4", "http://ic3.101.ru:8000/c5_4", "http://ic6.101.ru:8000/c5_4", "http://ic2.101.ru:80/c5_4"]
+      }, {
+        "name": "Modern Rock",
+        "link": "/radio/channel/16",
+        "image": "http://cdn8.101.ru/vardata/modules/channel/dynamics/pro/0/16.png",
+        "json": ["http://ic7.101.ru:8000/a16", "http://ic3.101.ru:8000/a16", "http://ic6.101.ru:8000/a16", "http://ic2.101.ru:80/a16"]
+      }, {
+        "name": "Indie",
+        "link": "/radio/channel/152",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/152.png",
+        "json": ["http://ic7.101.ru:8000/a152", "http://ic3.101.ru:8000/a152", "http://ic6.101.ru:8000/a152", "http://ic2.101.ru:80/a152"]
+      }, {
+        "name": "BritPop",
+        "link": "/radio/channel/206",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/206.png",
+        "json": ["http://ic7.101.ru:8000/a206", "http://ic3.101.ru:8000/a206", "http://ic6.101.ru:8000/a206", "http://ic2.101.ru:80/a206"]
+      }],
+      "clear": []
+    },
+    "Русская Музыка": {
+      "name": "Русская Музыка",
+      "link": "http://101.ru/radio-group/group/6",
+      "radio": [{
+        "name": "День Победы",
+        "link": "/radio/channel/178",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/178.png",
+        "json": ["http://ic7.101.ru:8000/c18_10", "http://ic3.101.ru:8000/c18_10", "http://ic6.101.ru:8000/c18_10", "http://ic2.101.ru:80/c18_10"]
+      }, {
+        "name": "Шансон",
+        "link": "/radio/channel/50",
+        "image": "http://cdn5.101.ru/vardata/modules/channel/dynamics/pro/0/50.png",
+        "json": ["http://ic7.101.ru:8000/a50", "http://ic3.101.ru:8000/a50", "http://ic6.101.ru:8000/a50", "http://ic2.101.ru:80/a50"]
+      }, {
+        "name": "Кабаре «Шансон»",
+        "link": "/radio/channel/49",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/49.png",
+        "json": ["http://ic7.101.ru:8000/a49", "http://ic3.101.ru:8000/a49", "http://ic6.101.ru:8000/a49", "http://ic2.101.ru:80/a49"]
+      }, {
+        "name": "Русские Песни",
+        "link": "/radio/channel/41",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/41.png",
+        "json": ["http://ic6.101.ru:8000/c1_1", "http://ic7.101.ru:8000/c1_1", "http://ic3.101.ru:8000/c1_1", "http://ic2.101.ru:80/c1_1"]
+      }, {
+        "name": "Авторская Песня",
+        "link": "/radio/channel/35",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/35.png",
+        "json": ["http://ic7.101.ru:8000/a35", "http://ic3.101.ru:8000/a35", "http://ic6.101.ru:8000/a35", "http://ic2.101.ru:80/a35"]
+      }, {
+        "name": "Армейские песни",
+        "link": "/radio/channel/37",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/37.png",
+        "json": ["http://ic7.101.ru:8000/c7_6", "http://ic3.101.ru:8000/c7_6", "http://ic6.101.ru:8000/c7_6", "http://ic2.101.ru:80/c7_6"]
+      }],
+      "clear": []
+    },
+    "Джаз / Блюз": {
+      "name": "Джаз / Блюз",
+      "link": "http://101.ru/radio-group/group/17",
+      "radio": [{
+        "name": "Swing",
+        "link": "/radio/channel/90",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/90.png",
+        "json": ["http://ic7.101.ru:8000/c13_4", "http://ic3.101.ru:8000/c13_4", "http://ic6.101.ru:8000/c13_4", "http://ic2.101.ru:80/c13_4"]
+      }, {
+        "name": "Jazz",
+        "link": "/radio/channel/85",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/85.png",
+        "json": ["http://ic7.101.ru:8000/c10_5", "http://ic3.101.ru:8000/c10_5", "http://ic6.101.ru:8000/c10_5", "http://ic2.101.ru:80/c10_5"]
+      }, {
+        "name": "Smooth Jazz",
+        "link": "/radio/channel/31",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/31.png",
+        "json": ["http://ic7.101.ru:8000/c2_3", "http://ic3.101.ru:8000/c2_3", "http://ic6.101.ru:8000/c2_3", "http://ic2.101.ru:80/c2_3"]
+      }, {
+        "name": "Blues",
+        "link": "/radio/channel/76",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/76.png",
+        "json": ["http://ic7.101.ru:8000/a76", "http://ic3.101.ru:8000/a76", "http://ic6.101.ru:8000/a76", "http://ic2.101.ru:80/a76"]
+      }, {
+        "name": "Funk & Soul",
+        "link": "/radio/channel/84",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/84.png",
+        "json": ["http://ic6.101.ru:8000/a84", "http://ic7.101.ru:8000/a84", "http://ic3.101.ru:8000/a84", "http://ic2.101.ru:80/a84"]
+      }],
+      "clear": []
+    },
+    "Рэп / Хип-Хоп": {
+      "name": "Рэп / Хип-Хоп",
+      "link": "http://101.ru/radio-group/group/16",
+      "radio": [{
+        "name": "Русский Рэп",
+        "link": "/radio/channel/43",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/43.png",
+        "json": ["http://ic7.101.ru:8000/c1_3", "http://ic3.101.ru:8000/c1_3", "http://ic6.101.ru:8000/c1_3", "http://ic2.101.ru:80/c1_3"]
+      }, {
+        "name": "Gangsta & Hip-Hop",
+        "link": "/radio/channel/8",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/8.png",
+        "json": ["http://ic7.101.ru:8000/a8", "http://ic3.101.ru:8000/a8", "http://ic6.101.ru:8000/a8", "http://ic2.101.ru:80/a8"]
+      }, {
+        "name": "Jazz Rap",
+        "link": "/radio/channel/278",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/278.png",
+        "json": ["http://ic7.101.ru:8000/c7_49", "http://ic3.101.ru:8000/c7_49", "http://ic6.101.ru:8000/c7_49", "http://ic2.101.ru:80/c7_49"]
+      }, {
+        "name": "Французский Рэп",
+        "link": "/radio/channel/240",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/240.png",
+        "json": ["http://ic7.101.ru:8000/c7_31", "http://ic3.101.ru:8000/c7_31", "http://ic6.101.ru:8000/c7_31", "http://ic2.101.ru:80/c7_31"]
+      }, {
+        "name": "R'n'B",
+        "link": "/radio/channel/15",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/15.png",
+        "json": ["http://ic7.101.ru:8000/a15", "http://ic3.101.ru:8000/a15", "http://ic6.101.ru:8000/a15", "http://ic2.101.ru:80/a15"]
+      }],
+      "clear": []
+    },
+    "Юмор": {
+      "name": "Юмор",
+      "link": "http://101.ru/radio-group/group/3",
+      "radio": [{
+        "name": "Юмор Non-Stop",
+        "link": "/radio/channel/22",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/22.png",
+        "json": ["http://ic7.101.ru:8000/c2_4", "http://ic3.101.ru:8000/c2_4", "http://ic6.101.ru:8000/c2_4", "http://ic2.101.ru:80/c2_4"]
+      }, {
+        "name": "Мурзилки Int.",
+        "link": "/radio/channel/3",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/3.png",
+        "json": ["http://ic7.101.ru:8000/c5_3", "http://ic3.101.ru:8000/c5_3", "http://ic6.101.ru:8000/c5_3", "http://ic2.101.ru:80/c5_3"]
+      }, {
+        "name": "Анекдоты",
+        "link": "/radio/channel/20",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/20.png",
+        "json": ["http://ic7.101.ru:8000/c3_5", "http://ic3.101.ru:8000/c3_5", "http://ic6.101.ru:8000/c3_5", "http://ic2.101.ru:80/c3_5"]
+      }, {
+        "name": "Классика Жанра",
+        "link": "/radio/channel/21",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/21.png",
+        "json": ["http://ic7.101.ru:8000/c4_1", "http://ic3.101.ru:8000/c4_1", "http://ic6.101.ru:8000/c4_1", "http://ic2.101.ru:80/c4_1"]
+      }],
+      "clear": []
+    },
+    "Для Детей": {
+      "name": "Для Детей",
+      "link": "http://101.ru/radio-group/group/10",
+      "radio": [{
+        "name": "Детские Песни",
+        "link": "/radio/channel/93",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/93.png",
+        "json": ["http://ic7.101.ru:8000/c3_3", "http://ic3.101.ru:8000/c3_3", "http://ic6.101.ru:8000/c3_3", "http://ic2.101.ru:80/c3_3"]
+      }, {
+        "name": "Колыбельная",
+        "link": "/radio/channel/95",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/95.png",
+        "json": ["http://ic7.101.ru:8000/c8_1", "http://ic3.101.ru:8000/c8_1", "http://ic6.101.ru:8000/c8_1", "http://ic2.101.ru:80/c8_1"]
+      }, {
+        "name": "Григорий Гладков",
+        "link": "/radio/channel/94",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/94.png",
+        "json": ["http://ic7.101.ru:8000/c17_1", "http://ic3.101.ru:8000/c17_1", "http://ic6.101.ru:8000/c17_1", "http://ic2.101.ru:80/c17_1"]
+      }, {
+        "name": "Детские Сказки",
+        "link": "/radio/channel/222",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/222.png",
+        "json": ["http://ic6.101.ru:8000/c17_27", "http://ic7.101.ru:8000/c17_27", "http://ic3.101.ru:8000/c17_27", "http://ic2.101.ru:80/c17_27"]
+      }],
+      "clear": []
+    },
+    "Ретро": {
+      "name": "Ретро",
+      "link": "http://101.ru/radio-group/group/18",
+      "radio": [{
+        "name": "СССР 30-50",
+        "link": "/radio/channel/46",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/46.png",
+        "json": ["http://ic7.101.ru:8000/c14_5", "http://ic3.101.ru:8000/c14_5", "http://ic6.101.ru:8000/c14_5", "http://ic2.101.ru:80/c14_5"]
+      }, {
+        "name": "СССР 50-70",
+        "link": "/radio/channel/47",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/47.png",
+        "json": ["http://ic7.101.ru:8000/c12_1", "http://ic3.101.ru:8000/c12_1", "http://ic6.101.ru:8000/c12_1", "http://ic2.101.ru:80/c12_1"]
+      }, {
+        "name": "ВИА",
+        "link": "/radio/channel/36",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/36.png",
+        "json": ["http://ic7.101.ru:8000/c3_1", "http://ic3.101.ru:8000/c3_1", "http://ic6.101.ru:8000/c3_1", "http://ic2.101.ru:80/c3_1"]
+      }, {
+        "name": "New York",
+        "link": "/radio/channel/64",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/64.png",
+        "json": ["http://ic7.101.ru:8000/c13_5", "http://ic3.101.ru:8000/c13_5", "http://ic6.101.ru:8000/c13_5", "http://ic2.101.ru:80/c13_5"]
+      }, {
+        "name": "Польское Ретро Plus",
+        "link": "/radio/channel/165",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/165.png",
+        "json": ["http://ic7.101.ru:8000/a165", "http://ic3.101.ru:8000/a165", "http://ic6.101.ru:8000/a165", "http://ic2.101.ru:80/a165"]
+      }],
+      "clear": []
+    },
+    "Золотая Коллекция": {
+      "name": "Золотая Коллекция",
+      "link": "http://101.ru/radio-group/group/12",
+      "radio": [{
+        "name": "Prince",
+        "link": "/radio/channel/282",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/282.png",
+        "json": ["http://ic7.101.ru:8000/a282", "http://ic3.101.ru:8000/a282", "http://ic6.101.ru:8000/a282", "http://ic2.101.ru:80/a282"]
+      }, {
+        "name": "Elvis Presley",
+        "link": "/radio/channel/111",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/111.png",
+        "json": ["http://ic7.101.ru:8000/a111", "http://ic3.101.ru:8000/a111", "http://ic6.101.ru:8000/a111", "http://ic2.101.ru:80/a111"]
+      }, {
+        "name": "The Beatles",
+        "link": "/radio/channel/55",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/55.png",
+        "json": ["http://ic7.101.ru:8000/c10_3", "http://ic3.101.ru:8000/c10_3", "http://ic6.101.ru:8000/c10_3", "http://ic2.101.ru:80/c10_3"]
+      }, {
+        "name": "The Rolling Stones",
+        "link": "/radio/channel/117",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/117.png",
+        "json": ["http://ic7.101.ru:8000/a117", "http://ic3.101.ru:8000/a117", "http://ic6.101.ru:8000/a117", "http://ic2.101.ru:80/a117"]
+      }, {
+        "name": "Pink Floyd",
+        "link": "/radio/channel/53",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/53.png",
+        "json": ["http://ic7.101.ru:8000/a53", "http://ic3.101.ru:8000/a53", "http://ic6.101.ru:8000/a53", "http://ic2.101.ru:80/a53"]
+      }, {
+        "name": "Queen",
+        "link": "/radio/channel/54",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/54.png",
+        "json": ["http://ic7.101.ru:8000/a54", "http://ic3.101.ru:8000/a54", "http://ic6.101.ru:8000/a54", "http://ic2.101.ru:80/a54"]
+      }, {
+        "name": "U2",
+        "link": "/radio/channel/109",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/109.png",
+        "json": ["http://ic7.101.ru:8000/a109", "http://ic3.101.ru:8000/a109", "http://ic6.101.ru:8000/a109", "http://ic2.101.ru:80/a109"]
+      }, {
+        "name": "Scorpions",
+        "link": "/radio/channel/113",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/113.png",
+        "json": ["http://ic7.101.ru:8000/a113", "http://ic3.101.ru:8000/a113", "http://ic6.101.ru:8000/a113", "http://ic2.101.ru:80/a113"]
+      }, {
+        "name": "Metallica",
+        "link": "/radio/channel/123",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/123.png",
+        "json": ["http://ic7.101.ru:8000/a123", "http://ic3.101.ru:8000/a123", "http://ic6.101.ru:8000/a123", "http://ic2.101.ru:80/a123"]
+      }, {
+        "name": "Deep Purple",
+        "link": "/radio/channel/125",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/125.png",
+        "json": ["http://ic7.101.ru:8000/a125", "http://ic3.101.ru:8000/a125", "http://ic6.101.ru:8000/a125", "http://ic2.101.ru:80/a125"]
+      }, {
+        "name": "Linkin Park",
+        "link": "/radio/channel/149",
+        "image": "http://cdn4.101.ru/vardata/modules/channel/dynamics/pro/0/149.png",
+        "json": ["http://ic7.101.ru:8000/a149", "http://ic3.101.ru:8000/a149", "http://ic6.101.ru:8000/a149", "http://ic2.101.ru:80/a149"]
+      }, {
+        "name": "Машина Времени",
+        "link": "/radio/channel/59",
+        "image": "http://cdn7.101.ru/vardata/modules/channel/dynamics/pro/0/59.png",
+        "json": ["http://ic7.101.ru:8000/a59", "http://ic3.101.ru:8000/a59", "http://ic6.101.ru:8000/a59", "http://ic2.101.ru:80/a59"]
+      }, {
+        "name": "ДДТ",
+        "link": "/radio/channel/112",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/112.png",
+        "json": ["http://ic7.101.ru:8000/a112", "http://ic3.101.ru:8000/a112", "http://ic6.101.ru:8000/a112", "http://ic2.101.ru:80/a112"]
+      }, {
+        "name": "Алиса",
+        "link": "/radio/channel/137",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/137.png",
+        "json": ["http://ic7.101.ru:8000/a137", "http://ic3.101.ru:8000/a137", "http://ic6.101.ru:8000/a137", "http://ic2.101.ru:80/a137"]
+      }, {
+        "name": "Ария",
+        "link": "/radio/channel/118",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/118.png",
+        "json": ["http://ic7.101.ru:8000/a118", "http://ic3.101.ru:8000/a118", "http://ic6.101.ru:8000/a118", "http://ic2.101.ru:80/a118"]
+      }, {
+        "name": "Виктор Цой и группа «КИНО»",
+        "link": "/radio/channel/103",
+        "image": "http://cdn6.101.ru/vardata/modules/channel/dynamics/pro/0/103.png",
+        "json": ["http://ic7.101.ru:8000/a103", "http://ic3.101.ru:8000/a103", "http://ic6.101.ru:8000/a103", "http://ic2.101.ru:80/a103"]
+      }, {
+        "name": "БГ & Аквариум",
+        "link": "/radio/channel/57",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/57.png",
+        "json": ["http://ic7.101.ru:8000/a57", "http://ic3.101.ru:8000/a57", "http://ic6.101.ru:8000/a57", "http://ic2.101.ru:80/a57"]
+      }, {
+        "name": "Чиж & Co",
+        "link": "/radio/channel/221",
+        "image": "http://cdn7.101.ru/vardata/modules/channel/dynamics/pro/0/221.png",
+        "json": ["http://ic7.101.ru:8000/a221", "http://ic3.101.ru:8000/a221", "http://ic6.101.ru:8000/a221", "http://ic2.101.ru:80/a221"]
+      }, {
+        "name": "Наутилус Помпилиус",
+        "link": "/radio/channel/126",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/126.png",
+        "json": ["http://ic7.101.ru:8000/a126", "http://ic3.101.ru:8000/a126", "http://ic6.101.ru:8000/a126", "http://ic2.101.ru:80/a126"]
+      }, {
+        "name": "Пикник",
+        "link": "/radio/channel/157",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/157.png",
+        "json": ["http://ic7.101.ru:8000/a157", "http://ic3.101.ru:8000/a157", "http://ic6.101.ru:8000/a157", "http://ic2.101.ru:80/a157"]
+      }, {
+        "name": "Агата Кристи",
+        "link": "/radio/channel/139",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/139.png",
+        "json": ["http://ic7.101.ru:8000/a139", "http://ic3.101.ru:8000/a139", "http://ic6.101.ru:8000/a139", "http://ic2.101.ru:80/a139"]
+      }, {
+        "name": "Чайф",
+        "link": "/radio/channel/106",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/106.png",
+        "json": ["http://ic7.101.ru:8000/a106", "http://ic3.101.ru:8000/a106", "http://ic6.101.ru:8000/a106", "http://ic2.101.ru:80/a106"]
+      }, {
+        "name": "Парк Горького",
+        "link": "/radio/channel/182",
+        "image": "http://cdn4.101.ru/vardata/modules/channel/dynamics/pro/0/182.png",
+        "json": ["http://ic7.101.ru:8000/a182", "http://ic3.101.ru:8000/a182", "http://ic6.101.ru:8000/a182", "http://ic2.101.ru:80/a182"]
+      }, {
+        "name": "Король и Шут",
+        "link": "/radio/channel/191",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/191.png",
+        "json": ["http://ic7.101.ru:8000/a191", "http://ic3.101.ru:8000/a191", "http://ic6.101.ru:8000/a191", "http://ic2.101.ru:80/a191"]
+      }, {
+        "name": "Любэ",
+        "link": "/radio/channel/158",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/158.png",
+        "json": ["http://ic7.101.ru:8000/a158", "http://ic3.101.ru:8000/a158", "http://ic6.101.ru:8000/a158", "http://ic2.101.ru:80/a158"]
+      }, {
+        "name": "Сплин",
+        "link": "/radio/channel/129",
+        "image": "http://cdn7.101.ru/vardata/modules/channel/dynamics/pro/0/129.png",
+        "json": ["http://ic7.101.ru:8000/a129", "http://ic3.101.ru:8000/a129", "http://ic6.101.ru:8000/a129", "http://ic2.101.ru:80/a129"]
+      }, {
+        "name": "БИ-2",
+        "link": "/radio/channel/135",
+        "image": "http://cdn5.101.ru/vardata/modules/channel/dynamics/pro/0/135.png",
+        "json": ["http://ic7.101.ru:8000/a135", "http://ic3.101.ru:8000/a135", "http://ic6.101.ru:8000/a135", "http://ic2.101.ru:80/a135"]
+      }, {
+        "name": "Michael Jackson",
+        "link": "/radio/channel/52",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/52.png",
+        "json": ["http://ic7.101.ru:8000/a52", "http://ic3.101.ru:8000/a52", "http://ic6.101.ru:8000/a52", "http://ic2.101.ru:80/a52"]
+      }, {
+        "name": "Adriano Celentano",
+        "link": "/radio/channel/277",
+        "image": "http://cdn4.101.ru/vardata/modules/channel/dynamics/pro/0/277.png",
+        "json": ["http://ic7.101.ru:8000/a277", "http://ic3.101.ru:8000/a277", "http://ic6.101.ru:8000/a277", "http://ic2.101.ru:80/a277"]
+      }, {
+        "name": "Madonna",
+        "link": "/radio/channel/128",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/128.png",
+        "json": ["http://ic7.101.ru:8000/a128", "http://ic3.101.ru:8000/a128", "http://ic6.101.ru:8000/a128", "http://ic2.101.ru:80/a128"]
+      }, {
+        "name": "Mylene Farmer",
+        "link": "/radio/channel/166",
+        "image": "http://cdn9.101.ru/vardata/modules/channel/dynamics/pro/0/166.png",
+        "json": ["http://ic7.101.ru:8000/a166", "http://ic3.101.ru:8000/a166", "http://ic6.101.ru:8000/a166", "http://ic2.101.ru:80/a166"]
+      }, {
+        "name": "Sandra",
+        "link": "/radio/channel/179",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/179.png",
+        "json": ["http://ic7.101.ru:8000/a179", "http://ic3.101.ru:8000/a179", "http://ic6.101.ru:8000/a179", "http://ic2.101.ru:80/a179"]
+      }, {
+        "name": "Robbie Williams",
+        "link": "/radio/channel/138",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/138.png",
+        "json": ["http://ic7.101.ru:8000/a138", "http://ic3.101.ru:8000/a138", "http://ic6.101.ru:8000/a138", "http://ic2.101.ru:80/a138"]
+      }, {
+        "name": "Elton John",
+        "link": "/radio/channel/142",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/142.png",
+        "json": ["http://ic7.101.ru:8000/a142", "http://ic3.101.ru:8000/a142", "http://ic6.101.ru:8000/a142", "http://ic2.101.ru:80/a142"]
+      }, {
+        "name": "ABBA",
+        "link": "/radio/channel/104",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/104.png",
+        "json": ["http://ic7.101.ru:8000/a104", "http://ic3.101.ru:8000/a104", "http://ic6.101.ru:8000/a104", "http://ic2.101.ru:80/a104"]
+      }, {
+        "name": "Boney M.",
+        "link": "/radio/channel/114",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/114.png",
+        "json": ["http://ic7.101.ru:8000/a114", "http://ic3.101.ru:8000/a114", "http://ic6.101.ru:8000/a114", "http://ic2.101.ru:80/a114"]
+      }, {
+        "name": "Modern Talking",
+        "link": "/radio/channel/115",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/115.png",
+        "json": ["http://ic7.101.ru:8000/a115", "http://ic3.101.ru:8000/a115", "http://ic6.101.ru:8000/a115", "http://ic2.101.ru:80/a115"]
+      }, {
+        "name": "Depeche Mode",
+        "link": "/radio/channel/105",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/105.png",
+        "json": ["http://ic7.101.ru:8000/a105", "http://ic3.101.ru:8000/a105", "http://ic6.101.ru:8000/a105", "http://ic2.101.ru:80/a105"]
+      }, {
+        "name": "Enigma",
+        "link": "/radio/channel/175",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/175.png",
+        "json": ["http://ic7.101.ru:8000/a175", "http://ic3.101.ru:8000/a175", "http://ic6.101.ru:8000/a175", "http://ic2.101.ru:80/a175"]
+      }, {
+        "name": "Муслим Магомаев",
+        "link": "/radio/channel/156",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/156.png",
+        "json": ["http://ic7.101.ru:8000/a156", "http://ic3.101.ru:8000/a156", "http://ic6.101.ru:8000/a156", "http://ic2.101.ru:80/a156"]
+      }, {
+        "name": "Алла Пугачёва",
+        "link": "/radio/channel/56",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/56.png",
+        "json": ["http://ic7.101.ru:8000/a56", "http://ic3.101.ru:8000/a56", "http://ic6.101.ru:8000/a56", "http://ic2.101.ru:80/a56"]
+      }, {
+        "name": "Филипп Киркоров",
+        "link": "/radio/channel/116",
+        "image": "http://cdn7.101.ru/vardata/modules/channel/dynamics/pro/0/116.png",
+        "json": ["http://ic7.101.ru:8000/a116", "http://ic3.101.ru:8000/a116", "http://ic6.101.ru:8000/a116", "http://ic2.101.ru:80/a116"]
+      }, {
+        "name": "Стас Михайлов",
+        "link": "/radio/channel/154",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/154.png",
+        "json": ["http://ic7.101.ru:8000/a154", "http://ic3.101.ru:8000/a154", "http://ic6.101.ru:8000/a154", "http://ic2.101.ru:80/a154"]
+      }, {
+        "name": "Ласковый Май",
+        "link": "/radio/channel/119",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/119.png",
+        "json": ["http://ic7.101.ru:8000/a119", "http://ic3.101.ru:8000/a119", "http://ic6.101.ru:8000/a119", "http://ic2.101.ru:80/a119"]
+      }, {
+        "name": "Руки Вверх!",
+        "link": "/radio/channel/163",
+        "image": "http://cdn4.101.ru/vardata/modules/channel/dynamics/pro/0/163.png",
+        "json": ["http://ic7.101.ru:8000/a163", "http://ic3.101.ru:8000/a163", "http://ic6.101.ru:8000/a163", "http://ic2.101.ru:80/a163"]
+      }, {
+        "name": "Высоцкий",
+        "link": "/radio/channel/58",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/58.png",
+        "json": ["http://ic7.101.ru:8000/a58", "http://ic3.101.ru:8000/a58", "http://ic6.101.ru:8000/a58", "http://ic2.101.ru:80/a58"]
+      }, {
+        "name": "Михаил Круг",
+        "link": "/radio/channel/110",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/110.png",
+        "json": ["http://ic7.101.ru:8000/a110", "http://ic3.101.ru:8000/a110", "http://ic6.101.ru:8000/a110", "http://ic2.101.ru:80/a110"]
+      }, {
+        "name": "Александр Розенбаум",
+        "link": "/radio/channel/153",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/153.png",
+        "json": ["http://ic7.101.ru:8000/a153", "http://ic3.101.ru:8000/a153", "http://ic6.101.ru:8000/a153", "http://ic2.101.ru:80/a153"]
+      }, {
+        "name": "Елена Ваенга",
+        "link": "/radio/channel/171",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/171.png",
+        "json": ["http://ic7.101.ru:8000/a171", "http://ic3.101.ru:8000/a171", "http://ic6.101.ru:8000/a171", "http://ic2.101.ru:80/a171"]
+      }, {
+        "name": "Каста",
+        "link": "/radio/channel/121",
+        "image": "http://cdn5.101.ru/vardata/modules/channel/dynamics/pro/0/121.png",
+        "json": ["http://ic7.101.ru:8000/a121", "http://ic3.101.ru:8000/a121", "http://ic6.101.ru:8000/a121", "http://ic2.101.ru:80/a121"]
+      }],
+      "clear": []
+    },
+    "World Music": {
+      "name": "World Music",
+      "link": "http://101.ru/radio-group/group/7",
+      "radio": [{
+        "name": "Italia",
+        "link": "/radio/channel/65",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/65.png",
+        "json": ["http://ic7.101.ru:8000/a65", "http://ic3.101.ru:8000/a65", "http://ic6.101.ru:8000/a65", "http://ic2.101.ru:80/a65"]
+      }, {
+        "name": "France",
+        "link": "/radio/channel/68",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/68.png",
+        "json": ["http://ic7.101.ru:8000/c16_17", "http://ic3.101.ru:8000/c16_17", "http://ic6.101.ru:8000/c16_17", "http://ic2.101.ru:80/c16_17"]
+      }, {
+        "name": "Французский Шансон",
+        "link": "/radio/channel/146",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/146.png",
+        "json": ["http://ic7.101.ru:8000/c17_24", "http://ic3.101.ru:8000/c17_24", "http://ic6.101.ru:8000/c17_24", "http://ic2.101.ru:80/c17_24"]
+      }, {
+        "name": "Latino",
+        "link": "/radio/channel/63",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/63.png",
+        "json": ["http://ic7.101.ru:8000/c7_42", "http://ic3.101.ru:8000/c7_42", "http://ic6.101.ru:8000/c7_42", "http://ic2.101.ru:80/c7_42"]
+      }, {
+        "name": "Украина",
+        "link": "/radio/channel/66",
+        "image": "http://cdn6.101.ru/vardata/modules/channel/dynamics/pro/0/66.png",
+        "json": ["http://ic7.101.ru:8000/c12_4", "http://ic3.101.ru:8000/c12_4", "http://ic6.101.ru:8000/c12_4", "http://ic2.101.ru:80/c12_4"]
+      }, {
+        "name": "Country",
+        "link": "/radio/channel/78",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/78.png",
+        "json": ["http://ic7.101.ru:8000/a78", "http://ic3.101.ru:8000/a78", "http://ic6.101.ru:8000/a78", "http://ic2.101.ru:80/a78"]
+      }, {
+        "name": "Reggae",
+        "link": "/radio/channel/88",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/88.png",
+        "json": ["http://ic7.101.ru:8000/a88", "http://ic3.101.ru:8000/a88", "http://ic6.101.ru:8000/a88", "http://ic2.101.ru:80/a88"]
+      }, {
+        "name": "Русское Регги",
+        "link": "/radio/channel/44",
+        "image": "http://cdn5.101.ru/vardata/modules/channel/dynamics/pro/0/44.png",
+        "json": ["http://ic7.101.ru:8000/a44", "http://ic3.101.ru:8000/a44", "http://ic6.101.ru:8000/a44", "http://ic2.101.ru:80/a44"]
+      }, {
+        "name": "Музыка Востока",
+        "link": "/radio/channel/67",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/67.png",
+        "json": ["http://ic7.101.ru:8000/c15_18", "http://ic3.101.ru:8000/c15_18", "http://ic6.101.ru:8000/c15_18", "http://ic2.101.ru:80/c15_18"]
+      }, {
+        "name": "Татарская Поп-музыка",
+        "link": "/radio/channel/246",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/246.png",
+        "json": ["http://ic7.101.ru:8000/c7_33", "http://ic3.101.ru:8000/c7_33", "http://ic6.101.ru:8000/c7_33", "http://ic2.101.ru:80/c7_33"]
+      }, {
+        "name": "Татарская Народная Музыка",
+        "link": "/radio/channel/262",
+        "image": "http://cdn4.101.ru/vardata/modules/channel/dynamics/pro/0/262.png",
+        "json": ["http://ic7.101.ru:8000/a262", "http://ic3.101.ru:8000/a262", "http://ic6.101.ru:8000/a262", "http://ic2.101.ru:80/a262"]
+      }, {
+        "name": "Архив Варшавского Договора",
+        "link": "/radio/channel/177",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/177.png",
+        "json": ["http://ic7.101.ru:8000/c7_25", "http://ic3.101.ru:8000/c7_25", "http://ic6.101.ru:8000/c7_25", "http://ic2.101.ru:80/c7_25"]
+      }, {
+        "name": "Армения",
+        "link": "/radio/channel/60",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/60.png",
+        "json": ["http://ic7.101.ru:8000/c10_1", "http://ic3.101.ru:8000/c10_1", "http://ic6.101.ru:8000/c10_1", "http://ic2.101.ru:80/c10_1"]
+      }, {
+        "name": "Кавказ Hits",
+        "link": "/radio/channel/39",
+        "image": "http://cdn4.101.ru/vardata/modules/channel/dynamics/pro/0/39.png",
+        "json": ["http://ic7.101.ru:8000/a39", "http://ic3.101.ru:8000/a39", "http://ic6.101.ru:8000/a39", "http://ic2.101.ru:80/a39"]
+      }, {
+        "name": "Японская Музыка",
+        "link": "/radio/channel/62",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/62.png",
+        "json": ["http://ic7.101.ru:8000/a62", "http://ic3.101.ru:8000/a62", "http://ic6.101.ru:8000/a62", "http://ic2.101.ru:80/a62"]
+      }, {
+        "name": "Цыганская Музыка",
+        "link": "/radio/channel/61",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/61.png",
+        "json": ["http://ic7.101.ru:8000/c7_36", "http://ic3.101.ru:8000/c7_36", "http://ic6.101.ru:8000/c7_36", "http://ic2.101.ru:80/c7_36"]
+      }],
+      "clear": []
+    },
+    "Этническая Музыка": {
+      "name": "Этническая Музыка",
+      "link": "http://101.ru/radio-group/group/19",
+      "radio": [{
+        "name": "Этника",
+        "link": "/radio/channel/51",
+        "image": "http://cdn4.101.ru/vardata/modules/channel/dynamics/pro/0/51.png",
+        "json": ["http://ic7.101.ru:8000/a51", "http://ic3.101.ru:8000/a51", "http://ic6.101.ru:8000/a51", "http://ic2.101.ru:80/a51"]
+      }, {
+        "name": "Русские Народные",
+        "link": "/radio/channel/40",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/40.png",
+        "json": ["http://ic7.101.ru:8000/a40", "http://ic3.101.ru:8000/a40", "http://ic6.101.ru:8000/a40", "http://ic2.101.ru:80/a40"]
+      }, {
+        "name": "Духовная Музыка",
+        "link": "/radio/channel/38",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/38.png",
+        "json": ["http://ic7.101.ru:8000/a38", "http://ic3.101.ru:8000/a38", "http://ic6.101.ru:8000/a38", "http://ic2.101.ru:80/a38"]
+      }],
+      "clear": []
+    },
+    "Классика": {
+      "name": "Классика",
+      "link": "http://101.ru/radio-group/group/11",
+      "radio": [{
+        "name": "Опера",
+        "link": "/radio/channel/96",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/96.png",
+        "json": ["http://ic7.101.ru:8000/a96", "http://ic3.101.ru:8000/a96", "http://ic6.101.ru:8000/a96", "http://ic2.101.ru:80/a96"]
+      }, {
+        "name": "Pop Classical Music",
+        "link": "/radio/channel/97",
+        "image": "http://cdn3.101.ru/vardata/modules/channel/dynamics/pro/0/97.png",
+        "json": ["http://ic7.101.ru:8000/a97", "http://ic3.101.ru:8000/a97", "http://ic6.101.ru:8000/a97", "http://ic2.101.ru:80/a97"]
+      }, {
+        "name": "Классическая Музыка",
+        "link": "/radio/channel/98",
+        "image": "http://cdn1.101.ru/vardata/modules/channel/dynamics/pro/0/98.png",
+        "json": ["http://ic7.101.ru:8000/c7_1", "http://ic3.101.ru:8000/c7_1", "http://ic6.101.ru:8000/c7_1", "http://ic2.101.ru:80/c7_1"]
+      }, {
+        "name": "NeoClassical",
+        "link": "/radio/channel/275",
+        "image": "http://cdn2.101.ru/vardata/modules/channel/dynamics/pro/0/275.png",
+        "json": ["http://ic7.101.ru:8000/a275", "http://ic3.101.ru:8000/a275", "http://ic6.101.ru:8000/a275", "http://ic2.101.ru:80/a275"]
+      }],
+      "clear": []
+    }
+  }
+}

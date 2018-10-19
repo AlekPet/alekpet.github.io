@@ -1,0 +1,35 @@
+---
+layout: default
+title: alekpet.github.io
+---
+<section class="content">
+  <ul class="posts_box">
+    {% for post in site.posts %}
+    <li>
+      <div class="post_contaner">
+        <div class="post_title">
+          <a href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title }}</a>
+          <span style="float:right;color:white;">{{ post.date | date_to_long_string }}</span>
+        </div>
+        <div class="post_content">
+          <div class="post_row">
+            <div>
+              {% if post.image %}
+              <img src="{{ post.image | relative_url }}" alt="" class="icon_message">
+              {% else %}
+              <img src="{{ "/images/icon_none.png" | relative_url }}" alt="" class="icon_message">
+              {% endif %}
+            </div>
+            <div>
+              {{ post.content }}
+            </div>
+          </div>
+        </div>
+        <div class="foot_post">
+          <a href="{{ post.url | relative_url }}" class="buttons read-post" title="Read post - {{ post.title }}">Читать пост</a>
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
