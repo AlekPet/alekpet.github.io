@@ -3,7 +3,7 @@ layout: default
 title: Обо мне
 ---
 ## Привет друг, меня зовут Алексей!
-- Перейди в мой гиьхаб и найди еще много интересного!
+- Посети мой github и найди еще много всего интересного!
   - Скрипт добавления в избранное : [AddToFavorite](https://github.com/AlekPet/AddToFavorite)
   - Смена прицела в браузерной игре surviv.io: [Change-the-scope-to-surviv.io](https://github.com/AlekPet/Change-the-scope-to-surviv.io)
   - Проверка продавцов на Ebay: [Ebay-User-Reviews-products-by-seller](https://github.com/AlekPet/Ebay-User-Reviews-products-by-seller)
