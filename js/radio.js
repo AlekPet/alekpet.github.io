@@ -60,7 +60,7 @@ function loadRadioSelected(genre, outuptCode) {
     let radio = genre.radio[i],
     host = 'http://101.ru/'
 
-    text += '<li><a target="_blank" href="' + host + radio.link + '" class="noajax" data-tooltip-block="#topchan82">' + '<div class="cover logo" style="background-color: #eeeeee"><img src="' + radio.image + '" alt="' + radio.name + '"></div>' + '<div class="h3 caps htitle">' + radio.name + '</div>' + '</a>';
+    text += '<li><a target="_blank" href="' + host + radio.link + '" class="noajax" data-tooltip-block="#topchan82">' + '<div class="cover logo" style="background-color: #eeeeee"><img src="' + radio.image + '" alt="' + radio.name + '" width="152"></div>' + '<div class="h3 caps htitle">' + radio.name + '</div>' + '</a>';
 
     outuptCode += '"title":"' + radio.name + '",\n"artist":"' + genre.name + ' - 101.ru",\n"poster":"' + radio.image + '",\n'
 
