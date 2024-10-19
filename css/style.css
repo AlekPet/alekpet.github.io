@@ -34,20 +34,23 @@ a {
 
 .navbar {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   text-align: center;
   border: solid #1d94cf;
   border-width: 1px 0 1px 0;
+  transition: 400ms;
+  margin: 0;
+  padding: 0;
 }
 
-.navbar div {
+.navbar a {
   flex: 1;
   background: rgb(3, 32, 46);
   padding: 5px;
   transition: 400ms;
 }
 
-.navbar div:hover {
+.navbar a:hover {
   background: rgb(26, 88, 119);
 }
 
@@ -174,11 +177,16 @@ footer {
 }
 
 .posts_list > li {
-  background: #c6cbcc;
+  background: #2f74a5;
   border-radius: 8px;
   display: flex;
-  flex-direction: column;
-  align-items: stretch;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding: 5px;
+  color: white;
+  cursor: pointer;
+  user-select: none;
 }
 
 .posts_list li:hover {
@@ -211,4 +219,36 @@ footer {
 
 .foot_post {
   text-align: right;
+}
+
+pre {
+  background: #a3cddc;
+  padding: 5px;
+  -webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.support_box {
+  margin: 10px;
+}
+
+.support_item {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: stretch;
+}
+
+.support_item_title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.support_item pre {
+  text-align: center;
 }
