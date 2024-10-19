@@ -235,12 +235,17 @@ pre {
   margin: 10px;
 }
 
+.support_box > div:not(:last-child) {
+  border-bottom: 2px dotted #051134;
+}
+
 .support_item {
   display: grid;
   gap: 5px;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-items: stretch;
+  margin: 10px;
 }
 
 .support_item_title {
