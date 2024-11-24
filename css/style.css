@@ -118,13 +118,19 @@ footer {
   padding: 0;
 }
 
+.posts_list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
 .posts_box {
   display: grid;
   gap: 10px;
   justify-content: center;
   align-items: start;
   grid-template-columns: 1fr 1fr;
-  justify-items: stretch;
+  font-size: 1rem;
 }
 
 .posts_box > li {
@@ -154,16 +160,13 @@ footer {
 
 .post_content {
   padding: 10px;
-  display: table;
 }
 
 .post_row {
-  display: table-row;
+  display: flex;
 }
 
 .post_content > .post_row div {
-  display: table-cell;
-  vertical-align: top;
   padding: 10px;
 }
 
@@ -194,7 +197,7 @@ footer {
 }
 
 .icon_message {
-  width: 128px;
+  max-width: 128px;
 }
 
 .buttons {
@@ -233,6 +236,10 @@ pre {
 
 .support_box {
   margin: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  transition: 1s all;
 }
 
 .support_box > div:not(:last-child) {
@@ -256,4 +263,53 @@ pre {
 
 .support_item pre {
   text-align: center;
+  white-space: normal;
+  word-break: break-all;
+}
+
+/* mediaqueries */
+@media only screen and (max-width: 750px) {
+  .posts_box {
+    font-size: 0.6rem;
+  }
+  .navbar {
+    font-size: 0.8rem;
+  }
+  .icon_message {
+    max-width: 90px;
+  }
+  .post_content > .post_row div {
+    padding: 5px;
+  }
+  .post_content {
+    padding: 5px;
+  }
+  .support_box,
+  .support_item pre {
+    font-size: 0.7rem;
+  }
+  blockquote {
+    margin: 0.5em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .posts_box {
+    font-size: 0.6rem;
+  }
+  .navbar {
+    font-size: 0.6rem;
+  }
+  .post_content > .post_row div {
+    padding: 2px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .posts_box {
+    font-size: 0.4rem;
+  }
+  .icon_message {
+    max-width: 70px;
+  }
 }
