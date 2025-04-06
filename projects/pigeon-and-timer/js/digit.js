@@ -1,3 +1,8 @@
+/* 
+Title: Digit, DigitalNumber classes
+Author: AlekPet (http://github.com/alekpet)
+*/
+
 // helper functions
 function generatePolygon(sides = 10, size = 100, startAngle = -Math.PI / 2) {
   const points = [];
