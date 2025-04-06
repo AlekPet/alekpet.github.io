@@ -29,12 +29,12 @@ function main() {
    num1.runBackward();
    num1.runBackward();*/
 
-  const t1 = { x: 80.0, y: 0.0 };
+  // const t1 = { x: 80.0, y: 0.0 };
   function animation() {
     num1.runBackward();
     //num1.runForward();
-    //pigeon.animate();
-    pigeon.update(t1);
+    pigeon.animate();
+    // pigeon.update(t1);
     //pigeon1.animate();
   }
 
