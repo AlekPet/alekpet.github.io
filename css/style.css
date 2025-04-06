@@ -267,6 +267,14 @@ pre {
   word-break: break-all;
 }
 
+/* Projects */
+.projects_list_box {
+  padding: 2px;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 2px dashed silver;
+}
+
 /* mediaqueries */
 @media only screen and (max-width: 750px) {
   .posts_box {

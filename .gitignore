@@ -1,0 +1,19 @@
+# Ignoring Jekyll build output
+_site/
+
+# Ignoring Bundler config and dependencies
+.bundle/
+
+vendor/
+
+# Ignoring gem files (if you're using a gemset)
+*.gem
+
+# Ignoring Ruby specific files
+*.rbc
+*.ruby-version
+*.ruby-gemset
+
+# Ignore logs
+log/*
+tmp/*

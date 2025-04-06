@@ -1,0 +1,168 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  margin: 0 auto;
+  width: fit-content;
+}
+.box {
+  display: flex;
+  position: relative;
+  left: 50%;
+  transform-style: preserve-3d;
+  transform: rotateY(10deg) translate(-50%, 0%);
+  transform-origin: center center;
+  /*   border: 1px dotted black; */
+  width: fit-content;
+  padding: 0 10px;
+}
+.globalWrapper {
+  font-family: monospace;
+  width: 36px;
+  height: 120px;
+  margin: 5px 3px;
+  transform-style: preserve-3d;
+  transform: translateZ(-10px) translateX(72%);
+}
+
+.digitWrapper {
+  display: flex;
+  text-align: center;
+  position: relative;
+  top: 64px;
+  transform-style: preserve-3d;
+  transition: 0.3s transform;
+}
+
+.block {
+  position: absolute;
+  border: 1px solid black;
+  font-size: 1.5rem;
+  background: white;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.setclock {
+  display: grid;
+  grid-template-columns: repeat(4, 30px);
+  grid-template-rows: repeat(4, 30px);
+  grid-template-areas:
+    "bc1 bc2 bc3 bp"
+    "bc4 bc5 bc6 bm"
+    "bc7 bc8 bc9 ."
+    ". bc0 . .";
+  gap: 5px;
+  position: absolute;
+  scale: 0.6;
+}
+
+.krishka {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+.krishka_left {
+  transform: translate3d(-65.2%, -50%, -48.541px) rotateY(90deg);
+}
+
+.krishka_right {
+  transform: translate3d(-35%, -50%, -48.541px) rotateY(90deg);
+}
+
+.digit-0 {
+  transform: rotateX(0deg);
+}
+.digit-1 {
+  transform: rotateX(36deg);
+}
+.digit-2 {
+  transform: rotateX(72deg);
+}
+.digit-3 {
+  transform: rotateX(108deg);
+}
+.digit-4 {
+  transform: rotateX(144deg);
+}
+.digit-5 {
+  transform: rotateX(180deg);
+}
+.digit-6 {
+  transform: rotateX(216deg);
+}
+.digit-7 {
+  transform: rotateX(252deg);
+}
+.digit-8 {
+  transform: rotateX(288deg);
+}
+.digit-9 {
+  transform: rotateX(324deg);
+}
+
+.pigeonWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 30px;
+  /*border: 1px solid red;*/
+}
+
+.pigeonBox {
+  position: relative;
+  display: block;
+  /*border:1px solid red;*/
+}
+.pigeon {
+  width: 100%;
+  height: 100%;
+}
+
+.pigeon-message {
+  position: absolute;
+  background: #fff;
+  text-align: center;
+  border: 1px solid silver;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 0.8rem;
+  font-family: monospace;
+  max-width: 200px;
+  z-index: 1;
+  opacity: 0.9;
+}
+
+.pigeon-message::before,
+.pigeon-message::after {
+  content: "";
+  background: #af9a9a;
+  position: absolute;
+  top: 99%;
+  left: 30%;
+  z-index: 2;
+}
+
+.pigeon-message::after {
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  clip-path: polygon(0% 0%, 100% 0%, 5% 100%);
+}
+
+.pigeon-message::before {
+  width: 16px;
+  height: 16px;
+  transform: translateX(-1px);
+  background: silver;
+  clip-path: polygon(0% 1%, 100% 0%, 5% 100%);
+}
