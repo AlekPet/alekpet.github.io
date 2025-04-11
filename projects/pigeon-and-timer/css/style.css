@@ -3,36 +3,37 @@
 ::before {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: monospace;
 }
 .wrapper {
   margin: 0 auto;
   width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 .box {
   display: flex;
-  position: relative;
-  left: 50%;
-  transform-style: preserve-3d;
-  transform: rotateY(10deg) translate(-50%, 0%);
-  transform-origin: center center;
-  /*   border: 1px dotted black; */
-  width: fit-content;
-  padding: 0 10px;
+  justify-content: center;
 }
+
 .globalWrapper {
+  position: relative;
   font-family: monospace;
-  width: 36px;
-  height: 120px;
-  margin: 5px 3px;
+  margin: 5px 5px;
+  height: 100px;
+  perspective: 1000px;
   transform-style: preserve-3d;
-  transform: translateZ(-10px) translateX(72%);
+  transform: rotateY(10deg) translate(0%, 50%);
 }
 
 .digitWrapper {
-  display: flex;
+  margin: 0 15px;
   text-align: center;
   position: relative;
-  top: 64px;
   transform-style: preserve-3d;
   transition: 0.3s transform;
 }
@@ -42,12 +43,12 @@
   border: 1px solid black;
   font-size: 1.5rem;
   background: white;
+  opacity: 1;
 }
 
 .controls {
   display: flex;
   flex-direction: column;
-  width: fit-content;
 }
 
 .setclock {
@@ -65,17 +66,7 @@
 }
 
 .krishka {
-  width: 100px;
-  height: 100px;
   position: absolute;
-}
-
-.krishka_left {
-  transform: translate3d(-65.2%, -50%, -48.541px) rotateY(90deg);
-}
-
-.krishka_right {
-  transform: translate3d(-35%, -50%, -48.541px) rotateY(90deg);
 }
 
 .digit-0 {
@@ -114,14 +105,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  top: 30px;
-  /*border: 1px solid red;*/
+  z-index: 99;
 }
 
 .pigeonBox {
   position: relative;
   display: block;
-  /*border:1px solid red;*/
 }
 .pigeon {
   width: 100%;
@@ -165,4 +154,21 @@
   transform: translateX(-1px);
   background: silver;
   clip-path: polygon(0% 1%, 100% 0%, 5% 100%);
+}
+
+.author {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+  color: silver;
+  font-size: 2rem;
+  opacity: 0.3;
+  transition: 1s all;
+  font-weight: 600;
+  user-select: none;
+  cursor: pointer;
+}
+.author:hover {
+  color: darkgreen;
 }

@@ -4,13 +4,15 @@ Author: AlekPet (http://github.com/alekpet)
 */
 
 // helper functions
-function generatePolygon(sides = 10, size = 100, startAngle = -Math.PI / 2) {
+function generatePolygon(sides, size, startAngleDeg) {
   const points = [];
   const center = size / 2;
   const radius = size / 2;
 
-  for (let i = 0; i < 10; i++) {
-    const angle = startAngle + (i * 2 * Math.PI) / 10;
+  const startAngleRad = (startAngleDeg * Math.PI) / 180;
+
+  for (let i = 0; i < sides; i++) {
+    const angle = startAngleRad + (i * 2 * Math.PI) / sides;
     const x = center + radius * Math.cos(angle);
     const y = center + radius * Math.sin(angle);
     points.push([x, y]);
@@ -50,11 +52,14 @@ class Digit {
 
     this.lenNumber = lenNumber;
     this.stepAngle = 360 / this.lenNumber;
-    this.marginOutside = this.blockH / (2 * Math.sin(Math.PI / lenNumber));
+    this.marginOutside = this.blockH / (2 * Math.tan(Math.PI / lenNumber));
 
     this.currentDig = currentDig;
     this.prevDig = currentDig;
-    this.currentAngle = this.stepAngle * currentDig;
+
+    this.offsetKrishkaAngle = lenNumber % 2 === 0 ? 90 / (lenNumber / 2) : 0;
+    this.currentAngle = this.stepAngle * currentDig - this.offsetKrishkaAngle;
+
     this.parent = parent ?? document.body;
 
     this.nextEl = nextEl;
@@ -80,6 +85,14 @@ class Digit {
 
   createElement() {
     const bg = Digit.getBrightColor();
+    const diametr =
+      (this.blockH / 2) * this.lenNumber - this.marginOutside * 1.15;
+
+    const polygonClip = generatePolygon(
+      this.lenNumber,
+      diametr,
+      this.currentAngle
+    );
 
     this.globalWrapper = document.createElement("div");
     this.globalWrapper.className = "globalWrapper";
@@ -95,23 +108,36 @@ class Digit {
       this.globalWrapper.style.width = "150px";
     }
 
-    const krishka_l = document.createElement("div");
-    krishka_l.style.background = bg;
-    krishka_l.className = "krishka krishka_left";
-    const krishka_r = document.createElement("div");
-    krishka_r.className = "krishka krishka_right";
+    this.krishka_l = document.createElement("div");
+    this.krishka_l.className = "krishka krishka_left";
 
-    krishka_r.style.background = bg;
+    this.krishka_r = document.createElement("div");
+    this.krishka_r.className = "krishka krishka_right";
 
-    const polygonClip = generatePolygon(this.marginOutside * 2, this.lenNumber);
-    krishka_r.style.clipPath = polygonClip;
-    krishka_l.style.clipPath = polygonClip;
+    Object.assign(this.krishka_l.style, {
+      background: bg,
+      width: diametr + "px",
+      height: diametr + "px",
+      clipPath: polygonClip,
+      transform: `translate(-50%,-50%) translate3d(${-15}px, 0%, -${
+        this.marginOutside
+      }px) rotateY(90deg)`,
+    });
+    Object.assign(this.krishka_r.style, {
+      background: bg,
+      width: diametr + "px",
+      height: diametr + "px",
+      clipPath: polygonClip,
+      transform: `translate(-50%,-50%) translate3d(${15}px, 0%, -${
+        this.marginOutside
+      }px) rotateY(90deg)`,
+    });
 
     this.digitWrapper = document.createElement("div");
     this.digitWrapper.className = "digitWrapper";
-    this.digitWrapper.style.transformOrigin = `0px 0px -${this.marginOutside}px`;
+    this.digitWrapper.style.transformOrigin = `center center -${this.marginOutside}px`;
 
-    this.digitWrapper.append(krishka_l, krishka_r);
+    this.digitWrapper.append(this.krishka_l, this.krishka_r);
 
     for (let i = 0; i < this.lenNumber; i++) {
       const block = document.createElement("div");
@@ -290,7 +316,11 @@ class DigitalNumber {
     this.params = params;
     const numStr = number.toString();
     this.numbers = Array.from(numStr);
-    this.lenNumber = params.lenNumber ?? 10;
+    this.lenNumber = !params.lenNumber
+      ? new Array(10).fill(10)
+      : !Array.isArray(params.lenNumber)
+      ? Array(+params.lenNumber).fill(+params.lenNumber)
+      : params.lenNumber;
     this.cls = params.cls ?? false;
     this.createDigit();
   }
@@ -303,7 +333,7 @@ class DigitalNumber {
         ...this.params,
         currentDig: +n,
         nextEl: this.digitCls[idx - 1] ? this.digitCls[idx - 1] : null,
-        lenNumber: this.lenNumber,
+        lenNumber: this.lenNumber[idx],
       });
 
       if (this.cls) {

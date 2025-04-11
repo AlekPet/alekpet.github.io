@@ -94,7 +94,6 @@ class Pigeon {
 
     this.spriteSizeW = w / this.spriteFrames;
     this.spriteSizeH = h / this.countAnim;
-    console.log(this.spriteSizeW, this.spriteSizeH);
 
     this.pigeonWrapper = document.createElement("div");
     this.pigeonWrapper.className = "pigeonWrapper";
@@ -118,18 +117,12 @@ class Pigeon {
       ...this.stylesWrapper,
       top: this.y + "px",
       left: this.x + "px",
-      //left: (this.start === "right" ? this.minMax.max : this.minMax.min) + "px"
     });
 
     Object.assign(this.pigeon.style, {
       ...this.stylesPigeon,
-      //width: this.spriteSizeW,
-      //height: this.spriteSizeH,
       position: "absolute",
-      //top: `${this.spriteSizeH}px`,
-      //left: `${this.spriteSizeW}`,
       background: `url(${img.src})`,
-      //backgroundColor: "transparent",
       backgroundPositionX: 0,
       transform: `scaleX(${this.velocity})`, //scale(${this.rndScale})`,
       //transformOrigin: "bottom center"
@@ -223,7 +216,6 @@ class Pigeon {
   }
 
   update(target) {
-    //console.log(target, this.x, this.y, this.angle)
     this.dx = target.x - this.x;
     this.dy = target.y - this.y;
     this.distance = Math.sqrt(this.dx * this.dx + this.dy * this.dy);
