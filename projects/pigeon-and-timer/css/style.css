@@ -8,6 +8,29 @@
 body {
   font-family: monospace;
 }
+
+.typeClockTimer {
+  display: flex;
+  gap: 30px;
+}
+
+.typeClockTimer label::before {
+  content: " ";
+  background: #3dff00;
+  width: 10px;
+  height: 16px;
+  position: absolute;
+  left: -15px;
+}
+
+.typeClockTimer label {
+  position: relative;
+}
+
+.typeClockTimer label:has(input:checked)::before {
+  background: red;
+}
+
 .wrapper {
   margin: 0 auto;
   width: fit-content;

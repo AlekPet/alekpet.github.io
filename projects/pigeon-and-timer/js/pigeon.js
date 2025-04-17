@@ -1,40 +1,47 @@
-/* 
+/*
 Title: Pigeon class
 Author: AlekPet (http://github.com/alekpet)
 */
 
+const messages = [
+  "Курлык-курлык! Есть хлебушек?",
+  "Эй, это моя площадь!",
+  "Че смотришь, человек?",
+  "Кто тут главный? Я главный!",
+  "Оставь меня в покое, я занят!",
+  "Где мои крошки?",
+  "Небо принадлежит мне!",
+  "Ой, кажется, я что-то уронил... на твою машину!",
+  "Курлык – это философия жизни!",
+  "Я вижу тебя, а ты меня?",
+  "Уру-ру-ру...",
+  "Курлык-курлык, смертные! Склонитесь передо мной!",
+  "Хлеб — временный, власть — вечна!",
+  "Ой, ты думал, это твой бутерброд? Какая наивность!",
+  "Еще шаг — и твоя машина в белом камуфляже!",
+  "Я не жирный, я ВЕЛИЧЕСТВЕННЫЙ!",
+  "Кто оставил семечку? Это теперь мой клад!",
+  "Ты бежишь? Я тоже... но медленно и смешно.",
+  "Парк уже наш, дальше только Кремль!",
+  "Ты уронил кусочек. Он теперь мой. Судьба так решила.",
+  "Твой зонтик? Нет, теперь это моя тронная комната!",
+];
+
 // Pigeon class
 class Pigeon {
-  static messages = [
-    "Курлык-курлык! Есть хлебушек?",
-    "Эй, это моя площадь!",
-    "Че смотришь, человек?",
-    "Кто тут главный? Я главный!",
-    "Оставь меня в покое, я занят!",
-    "Где мои крошки?",
-    "Небо принадлежит мне!",
-    "Ой, кажется, я что-то уронил... на твою машину!",
-    "Курлык – это философия жизни!",
-    "Я вижу тебя, а ты меня?",
-    "Уру-ру-ру...",
-    "Курлык-курлык, смертные! Склонитесь передо мной!",
-    "Хлеб — временный, власть — вечна!",
-    "Ой, ты думал, это твой бутерброд? Какая наивность!",
-    "Еще шаг — и твоя машина в белом камуфляже!",
-    "Я не жирный, я ВЕЛИЧЕСТВЕННЫЙ!",
-    "Кто оставил семечку? Это теперь мой клад!",
-    "Ты бежишь? Я тоже... но медленно и смешно.",
-    "Парк уже наш, дальше только Кремль!",
-    "Ты уронил кусочек. Он теперь мой. Судьба так решила.",
-    "Твой зонтик? Нет, теперь это моя тронная комната!",
-  ];
-
   constructor(params = {}) {
     const {
       parent = document.body,
       speed = 10,
-      start = "left",
-      targetPos = [{ x: 80, y: 0 }],
+      targetPos = [
+        {
+          x: 80,
+          y: 0,
+        },
+      ],
+
+      //   start = "left",
+
       stylesWrapper = {},
       stylesPigeon = {},
       action = "walk",
@@ -42,6 +49,7 @@ class Pigeon {
       y = 0,
     } = params;
 
+    this.ready = false;
     this.x = x;
     this.y = y;
     this.dx = 0;
@@ -50,19 +58,26 @@ class Pigeon {
     this.vy = y;
     this.distance = 0;
 
+    // this.start = start;
+
     this.ease = Math.random() * (0.15 - 0.3) + 0.3;
     this.friction = Math.random() * (0.25 - 0.05) + 0.05;
 
     this.parent = parent;
     this.speed = speed;
-    this.start = start;
+    this.backgroundPositionX = 0;
+    this.backgroundPositionY = 0;
 
-    targetPos.push({ x, y });
+    targetPos.push({
+      x,
+      y,
+    });
     this.targetPos = targetPos;
-    this.velocity = start === "left" ? 1 : start === "right" ? -1 : 0;
+    this.velocity = 1;
 
     this.stylesWrapper = stylesWrapper;
     this.stylesPigeon = stylesPigeon;
+
     this.rndScale =
       params.rndScale ?? +(Math.random() * (0.65 - 0.6) + 0.6).toFixed(3);
 
@@ -70,7 +85,7 @@ class Pigeon {
     this.spriteFrames = params.spriteFrames ?? 2;
     this.countAnim = params.countAnim ?? 1;
 
-    this.actions = ["walk", "nyam", /* "fly",*/ "pigeon-demon"];
+    this.actions = ["walk", "nyam", /*"fly",*/ "pigeon-demon"];
 
     this.action = this.actions.includes(action) ? action : "walk";
     this.stp = 0;
@@ -81,12 +96,14 @@ class Pigeon {
   async makePigeon() {
     const imgData = await new Promise((res, rej) => {
       const img = new Image();
-      img.onload = (e) =>
+      img.onload = (e) => {
+        this.ready = true;
         res({
           w: e.target.naturalWidth,
           h: e.target.naturalHeight,
           img: e.target,
         });
+      };
       img.onerror = () => rej(null);
       img.src = this.imgSrc; //"Golub2.png"
     });
@@ -125,7 +142,6 @@ class Pigeon {
       background: `url(${img.src})`,
       backgroundPositionX: 0,
       transform: `scaleX(${this.velocity})`, //scale(${this.rndScale})`,
-      //transformOrigin: "bottom center"
     });
     this.walkend = false;
 
@@ -137,7 +153,7 @@ class Pigeon {
 
   changeMessage() {
     this.pigeonMessage.textContent =
-      Pigeon.messages[Math.floor(Math.random() * Pigeon.messages.length)];
+      messages[Math.floor(Math.random() * messages.length)];
 
     const { width: mesW, height: mesH } =
       this.pigeonMessage.getBoundingClientRect();
@@ -145,7 +161,7 @@ class Pigeon {
     this.pigeonMessage.style.top = `${-mesH}px`;
   }
 
-  walk() {
+  walk_old() {
     const backgroundPositionX = parseInt(
       getComputedStyle(this.pigeon).getPropertyValue("background-position-x")
     );
@@ -158,7 +174,6 @@ class Pigeon {
     this.pigeon.style.backgroundPositionY = 0 + "px";
 
     if (this.start === "left") {
-      //console.log("left - right");
       if (leftPos >= this.targetPos[0].x) {
         //this.changeMessage();
         this.velocity = -1;
@@ -167,7 +182,6 @@ class Pigeon {
     }
 
     if (this.start === "right") {
-      //console.log("right - left");
       if (leftPos <= this.targetPos[1].x) {
         //this.changeMessage();
         this.velocity = 1;
@@ -177,47 +191,41 @@ class Pigeon {
 
     this.pigeonWrapper.style.left = leftPos + this.velocity * this.speed + "px";
     this.pigeon.style.transform = `scaleX(${this.velocity})`;
-    //scale(${this.rndScale})`;
-    //this.pigeon.style.transformOrigin = "bottom center";
   }
 
   nyam() {
-    const backgroundPositionX = parseInt(
-      getComputedStyle(this.pigeon).getPropertyValue("background-position-x")
-    );
-    this.pigeon.style.backgroundPositionX =
-      (backgroundPositionX === 0 ? this.spriteSizeW : 0) + "px";
-    this.pigeon.style.backgroundPositionY = this.spriteSizeH * 2 + "px";
+    this.draw(2);
   }
 
   demon() {
-    const backgroundPositionX = parseInt(
-      getComputedStyle(this.pigeon).getPropertyValue("background-position-x")
-    );
-    this.pigeon.style.backgroundPositionX =
-      (backgroundPositionX === 0 ? this.spriteSizeW : 0) + "px";
-    this.pigeon.style.backgroundPositionY = this.spriteSizeH * 5 + "px";
+    this.draw(5);
   }
 
-  fly() {}
+  walk() {
+    this.speed = 10;
+    this.update(this.targetPos);
+    this.draw(0);
+  }
 
-  draw() {
-    const backgroundPositionX = parseInt(
-      getComputedStyle(this.pigeon).getPropertyValue("background-position-x")
-    );
+  fly() {
+    this.speed = 20;
+    this.update(this.targetPos);
+    this.draw(3);
+  }
 
-    this.pigeon.style.backgroundPositionX =
-      (backgroundPositionX === 0 ? this.spriteSizeW : 0) + "px";
-    this.pigeon.style.backgroundPositionY = 0 + "px";
+  draw(y_anim) {
+    this.backgroundPositionY = y_anim * this.spriteSizeH;
+
+    this.pigeon.style.backgroundPositionY = this.backgroundPositionY + "px";
 
     this.pigeonWrapper.style.left = this.x + "px";
     this.pigeonWrapper.style.top = this.y + "px";
     this.pigeon.style.transform = `scaleX(${this.velocity})`;
   }
 
-  update(target) {
-    this.dx = target.x - this.x;
-    this.dy = target.y - this.y;
+  update(targets) {
+    this.dx = this.targetPos[0].x - this.x;
+    this.dy = this.targetPos[0].y - this.y;
     this.distance = Math.sqrt(this.dx * this.dx + this.dy * this.dy);
 
     this.angle = Math.atan2(this.dy, this.dx);
@@ -228,22 +236,33 @@ class Pigeon {
     this.x = this.vx * this.ease;
     this.y = this.vy * this.ease;
 
+    this.velocity = this.dx > 0 ? 1 : -1;
+
     if (Math.floor(this.distance) == 0) {
-      this.walkend = !this.walkend;
-      if (this.walkend) {
-        target.x = 0;
-        target.y = 0;
-        this.velocity = -1;
-      } else {
-        target.x = 80;
-        target.y = 0;
-        this.velocity = 1;
-      }
+      this.targetPos = this.targetPos.reverse();
+      console.log(this.targetPos);
+      //   this.walkend = !this.walkend;
+      //   if (this.walkend) {
+      //     this.target.x = 0;
+      //     this.target.y = 0;
+      //   } else {
+      //     this.target.x = 80;
+      //     this.target.y = 0;
+      //   }
     }
-    this.draw();
+  }
+
+  animate_v2() {
+    if (!this.ready) return;
+
+    this.backgroundPositionX =
+      this.backgroundPositionX === 0 ? this.spriteSizeW : 0;
+    this.pigeon.style.backgroundPositionX = this.backgroundPositionX + "px";
   }
 
   animate() {
+    if (!this.ready) return;
+
     this.retry = !this.retry
       ? Math.floor(Math.random() * (16 - 4) + 4)
       : this.retry;
@@ -262,25 +281,41 @@ class Pigeon {
 
       this.retry = Math.floor(Math.random() * (16 - 4) + 4);
 
-      if (this.rnd === 2) {
-        this.retry = 16;
-      }
+      //   if (this.rnd === 2) {
+      //     this.retry = 136;
+      //   }
       this.changeMessage();
     }
 
+    this.backgroundPositionX =
+      this.backgroundPositionX === 0 ? this.spriteSizeW : 0;
+    this.pigeon.style.backgroundPositionX = this.backgroundPositionX + "px";
+
+    // console.log(this.rnd, this.action);
     switch (this.action) {
-      case "nyam": {
+      case "nyam":
         this.nyam();
         break;
-      }
-      case "walk": {
+
+      case "walk":
+        // this.target = this.target ?? {
+        //   x: 80,
+        //   y: 0,
+        // };
         this.walk();
         break;
-      }
-      case "pigeon-demon": {
+
+      case "fly":
+        // this.target2 = this.target2 ?? {
+        //   x: 100,
+        //   y: -80,
+        // };
+        this.fly();
+        break;
+
+      case "pigeon-demon":
         this.demon();
         break;
-      }
     }
     this.stp += 1;
   }
