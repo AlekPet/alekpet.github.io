@@ -2,12 +2,68 @@
 import { DigitalNumber } from "./digit.js";
 import { Pigeon } from "./pigeon.js";
 
-function main() {
-  const num1 = new DigitalNumber("1000010", {
-    parent: document.querySelector(".box"),
-    lenNumber: 10,
-    setClock: !true,
+function getClockData() {
+  const addZero = (data) => (data < 10 ? "0" + data : data);
+  const nowDate = new Date();
+  const hours = addZero(nowDate.getHours());
+  const mins = addZero(nowDate.getMinutes());
+  const secs = addZero(nowDate.getSeconds());
+
+  return {
+    numbers: `${hours}${mins}${secs}`,
+    lenNumber: [3, 10, 6, 10, 6, 10],
+  };
+}
+
+function main(type = null) {
+  const box = document.querySelector(".box");
+  let data = { numbers: "00001", lenNumber: 10 };
+
+  let num1 = new DigitalNumber(data.numbers, {
+    parent: box,
+    lenNumber: data.lenNumber,
+    direction: "backward",
   });
+
+  let prevType = "timer_backward";
+  const typeClockTimer = document
+    .querySelectorAll("[name=timer_clock]")
+    .forEach((elem) => {
+      elem.addEventListener("change", function (event) {
+        if (prevType === event.target.value) return;
+
+        box.innerHTML = "";
+
+        switch (event.target.value) {
+          case "current_time":
+            data = getClockData();
+            console.log(data);
+            num1 = new DigitalNumber(data.numbers, {
+              parent: box,
+              lenNumber: data.lenNumber,
+              direction: "forward",
+            });
+            break;
+          case "timer_forward":
+            data = { numbers: "9991", lenNumber: 10 };
+            num1 = new DigitalNumber(data.numbers, {
+              parent: box,
+              lenNumber: data.lenNumber,
+              direction: "forward",
+            });
+            break;
+          case "timer_backward":
+          default:
+            data = { numbers: "00001", lenNumber: 10 };
+            num1 = new DigitalNumber(data.numbers, {
+              parent: box,
+              lenNumber: data.lenNumber,
+              direction: "backward",
+            });
+        }
+        prevType = event.target.value;
+      });
+    });
 
   const other = !true
     ? {}
@@ -17,22 +73,18 @@ function main() {
         rndScale: 1,
         parent: document.querySelector(".wrapper"),
       };
-  const pigeon = new Pigeon(other);
-  // const pigeon1 = new Pigeon({
-  //   start: "right",
-  //   minMax: { min: 0, max: 180 }, speed: 15
-  // });
 
-  /* num1.runBackward();
-   num1.runBackward();
-   num1.runBackward();
-   num1.runBackward();
-   num1.runBackward();*/
+  const pigeon = new Pigeon(other);
 
   // const t1 = { x: 80.0, y: 0.0 };
   function animation() {
-    num1.runBackward();
-    //num1.runForward();
+    // num1.runBackward();
+    // num1.runForward();
+
+    num1.params.direction === "backward"
+      ? num1.runBackward()
+      : num1.runForward();
+
     pigeon.animate();
     // pigeon.update(t1);
     //pigeon1.animate();

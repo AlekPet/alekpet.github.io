@@ -10,6 +10,11 @@
 <body>
   <h1 style="text-align: center;margin: 15px;">Pigeon and Timer</h1>
   <div class="wrapper">
+    <div class="typeClockTimer">
+      <label title="Current clock time">Current time: <input type="radio" name="timer_clock" value="current_time"></label> 
+      <label title="Timer go to backward">Timer backward: <input type="radio" name="timer_clock" value="timer_backward" checked></label> 
+      <label title="Timer go to forward">Timer forward:<input type="radio" name="timer_clock" value="timer_forward"></label>
+    </div>
     <div class="box"></div>
   </div>
   <script type="module" src="./js/script.js"></script>
