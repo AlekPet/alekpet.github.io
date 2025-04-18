@@ -37,7 +37,6 @@ function main(type = null) {
         switch (event.target.value) {
           case "current_time":
             data = getClockData();
-            console.log(data);
             num1 = new DigitalNumber(data.numbers, {
               parent: box,
               lenNumber: data.lenNumber,

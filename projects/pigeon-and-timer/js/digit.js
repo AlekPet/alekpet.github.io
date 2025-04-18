@@ -174,6 +174,20 @@ class Digit {
     buttonM.textContent = "-";
     this.setclock.append(buttonP, buttonM);
 
+    let y = 0;
+    this.digitWrapper.addEventListener("touchstart", (e) => {
+      y = e.changedTouches[0].clientY;
+    });
+
+    this.digitWrapper.addEventListener("touchend", (e) => {
+      if (y > e.changedTouches[0].clientY) {
+        this.moveForward(this.currentDig + 1);
+        y = e.changedTouches[0].clientY;
+      } else {
+        this.moveBackward(this.currentDig - 1);
+      }
+    });
+
     this.setclock.addEventListener("click", (e) => {
       const target = e.target;
 
