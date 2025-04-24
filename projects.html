@@ -5,7 +5,48 @@ title: Проекты (Projects)
 <h4>List my projects: </h4>
 
 <div class="projects_list_box">
-    <ul class="projects_list">
+    <!-- <ul class="projects_list">
         <li><a href="/projects/pigeon-and-timer/index.html">pigeon-and-timer</a></li>
-    </ul>
+    </ul> -->
 </div>
+
+<script type="module">
+    import { createGroupList } from "/js/utils.js"
+
+    const data = {
+        JavaScript: {
+            settings: { bg: "pink" },
+            links: [
+                { name: "pigeon-and-timer", url: "/projects/pigeon-and-timer/index.html" },
+            ],
+            groups: {
+                userScript: {
+                    links: [
+                        { name: "Change-the-scope-to-games ", url: "https://github.com/AlekPet/Change-the-scope-to-games" },
+                        { name: "Rutor-Preview-Ajax", url: "https://github.com/AlekPet/Rutor-Preview-Ajax" },
+                        { name: "Grab-Radio-101.ru", url: "https://github.com/AlekPet/Grab-Radio-101.ru" }
+                    ]
+                },
+            },
+        },
+        Python: {
+            settings: { bg: "#60cb2b" },
+            groups: {
+                "AI": {
+                    settings: { bg: "purple" },
+                    links: [
+                        { name: "ComfyUI_Custom_Nodes_AlekPet", url: "https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet" },
+                        { name: "Fooocus_Extensions_AlekPet", url: "https://github.com/AlekPet/Fooocus_Extensions_AlekPet" },
+                        { name: "Prompt_Translate_AUTOMATIC1111", url: "https://github.com/AlekPet/Prompt_Translate_AUTOMATIC1111" },
+                    ]
+                },
+            },
+            links: [
+                { name: "TorrAcePlaylists ", url: "https://github.com/AlekPet/TorrAcePlaylists" },
+                { name: "Subtitles_Translate ", url: "https://github.com/AlekPet/Subtitles_Translate" },
+                { name: "m3u-template-generator ", url: "#private" },
+            ]
+        },
+    };
+    createGroupList(".projects_list_box", data)
+</script>
