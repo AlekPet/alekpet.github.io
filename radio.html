@@ -3,16 +3,19 @@ layout: default
 title: Онлайн радио
 ---
 <h1>Радио станции с сайта 101.ru</h1>
-<p>Данные с сайта 101.ru, получены скриптом: <a href="https://github.com/AlekPet/Grab-Radio-101.ru">Grab-Radio-101.ru</a></p>
+<p>Данные с сайта 101.ru, получены скриптом: <a
+    href="https://github.com/AlekPet/Grab-Radio-101.ru">Grab-Radio-101.ru</a></p>
 
 <link rel="stylesheet" href="/css/radio.css">
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" charset="utf-8"></script>
 <script src="/js/radio.js" charset="utf-8"></script>
-<div id="radio"></div>
+<div id="radio">
+  <p class="waiting">Загрузка списка с радио...</p>
+</div>
 <script type="text/javascript">
-  $(document).ready(function() {
-    $.getJSON("{{ "/js/radio.json" | relative_url }}",function(data){
-    panelv2_menu(data.allRadios)
+  $(document).ready(function () {
+    $.getJSON("/js/radio.json", function (data) {
+      panelv2_menu(data.allRadios);
     })
   })
 </script>

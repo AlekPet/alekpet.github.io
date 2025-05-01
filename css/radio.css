@@ -136,3 +136,25 @@ textarea#texta {
   color: yellow;
   cursor: pointer;
 }
+
+.waiting {
+  text-align: center;
+  padding: 10px;
+  border: 3px dashed cyan;
+  border-radius: 8px;
+  background: white;
+  color: #0da1a1;
+  width: 80%;
+  margin: 0 auto;
+  animation: 1s waiting infinite;
+  position: relative;
+}
+
+@keyframes waiting {
+  0% {
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(45deg);
+  }
+}

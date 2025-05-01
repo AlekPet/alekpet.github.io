@@ -279,7 +279,6 @@ pre {
 .group {
   list-style: none;
   user-select: none;
-  /* border-left: 1px dashed silver; */
   overflow: hidden;
 }
 
@@ -320,12 +319,12 @@ pre {
 
 .group_title::before {
   content: "";
-  width: 3.5%;
   height: 1px;
   border-top: 1px dashed silver;
   position: absolute;
   right: 100%;
-  top: 10px;
+  left: -30px;
+  top: 12px;
 }
 
 /* mediaqueries */
