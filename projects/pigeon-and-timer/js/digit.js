@@ -336,6 +336,11 @@ class DigitalNumber {
       ? Array(+params.lenNumber).fill(+params.lenNumber)
       : params.lenNumber;
     this.cls = params.cls ?? false;
+    this.resetFunc = (currentNum) => {
+      return params.resetFunc
+        ? params.resetFunc(this, currentNum) ?? false
+        : false;
+    };
     this.createDigit();
   }
 
@@ -383,7 +388,7 @@ class DigitalNumber {
       const n = digits[i];
 
       if (carry) {
-        if (n.currentDig === n.lenNumber - 1) {
+        if (n.currentDig === n.lenNumber - 1 || this.resetFunc(n)) {
           func.call(n, 0);
           //n.moveForward(0);
         } else {
@@ -407,7 +412,7 @@ class DigitalNumber {
       const n = digits[i];
 
       if (carry) {
-        if (n.currentDig === 0) {
+        if (n.currentDig === 0 || this.resetFunc(n)) {
           func.call(n, n.lenNumber - 1);
           // n.moveBackward(n.lenNumber - 1);
         } else {

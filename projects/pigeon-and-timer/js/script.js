@@ -41,6 +41,18 @@ function main(type = null) {
               parent: box,
               lenNumber: data.lenNumber,
               direction: "forward",
+              resetFunc: (context, n) => {
+                // User reset function, this is reset hours 23 to 00.
+                if (context.digitCls[1] === n) {
+                  if (
+                    context.digitCls[0].currentDig === 2 &&
+                    context.digitCls[1].currentDig === 3
+                  ) {
+                    return true;
+                  }
+                }
+                return false;
+              },
             });
             break;
           case "timer_forward":
