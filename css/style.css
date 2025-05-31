@@ -273,13 +273,14 @@ pre {
   background: #ffffff;
   border-radius: 8px;
   border: 2px dashed silver;
+  position: relative;
+  overflow: hidden;
 }
 
 /* Group styles */
 .group {
   list-style: none;
   user-select: none;
-  overflow: hidden;
 }
 
 .group_title {
@@ -309,7 +310,7 @@ pre {
   width: 1px;
   border-left: 1px dashed silver;
   position: absolute;
-  top: 25px;
+  top: 30px;
   left: 10px;
 }
 
