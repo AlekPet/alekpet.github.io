@@ -38,6 +38,13 @@ div#outputs {
   font-size: 1.5em;
 }
 
+div#outputs ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5px;
+  gap: 5px;
+}
+
 .selactive {
   background: #4c1a1a !important;
 }
@@ -61,7 +68,6 @@ div#outputs {
 
 .box_inner > ul li,
 #outputs > ul li {
-  display: inline-block;
   padding: 10px;
   border: 1px solid;
   margin: 10px;
